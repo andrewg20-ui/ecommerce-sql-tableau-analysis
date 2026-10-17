@@ -1,0 +1,413 @@
+{
+  "generated_at_utc": "2026-10-14T01:14:38.812082+00:00",
+  "scope": "Export-level checks of the supplied historical snapshot; no live SQL execution or raw-record verification.",
+  "status": "pass",
+  "check_groups_passed": 44,
+  "check_groups_failed": 0,
+  "files": [
+    {
+      "file": "monthly_overview.csv",
+      "rows": 37,
+      "sha256": "7ea5553130344073e1709abca3f066e2078d9c41fdb7d613ced3fadd7e151960"
+    },
+    {
+      "file": "acquisition_monthly.csv",
+      "rows": 422,
+      "sha256": "cdf28c39c70b65ef503cb1b2df867d6270e40c5e0815883c86e395cb35c3ec58"
+    },
+    {
+      "file": "funnel_monthly.csv",
+      "rows": 490,
+      "sha256": "0bc5222a983e5b2039654a24494bf054bc7d6462268b997a8667f8357b9d5975"
+    },
+    {
+      "file": "product_monthly.csv",
+      "rows": 89,
+      "sha256": "2dda25c59a3b3f0db62b3ee4b2938b9991fc63c72948fd2a6f301995381b59da"
+    },
+    {
+      "file": "refund_monthly.csv",
+      "rows": 89,
+      "sha256": "2fe01a2bd3fb4b88fedcdc15005ec4c2bba9c051424ecc91ff2b68b4fa2f21e4"
+    },
+    {
+      "file": "customer_sessions_monthly.csv",
+      "rows": 70,
+      "sha256": "fde7594eec06459f4f34cdf611d3750c8e905252d790ce5df20e386e6d92277d"
+    },
+    {
+      "file": "repeat_purchase_cohorts.csv",
+      "rows": 32,
+      "sha256": "e5114abe91d53556500bbf91efa93da5a1a70f56aba4d37228cb5a54c9f3f826"
+    }
+  ],
+  "checks": [
+    {
+      "check": "monthly_overview: schema",
+      "status": "pass",
+      "detail": "Expected exported field names and order"
+    },
+    {
+      "check": "monthly_overview: rows and month coverage",
+      "status": "pass",
+      "detail": "37 rows; 37 distinct consecutive months; expected 2012-03-01 to 2015-03-01"
+    },
+    {
+      "check": "monthly_overview: unique grain",
+      "status": "pass",
+      "detail": "month"
+    },
+    {
+      "check": "monthly_overview: numeric and required values",
+      "status": "pass",
+      "detail": "Finite nonnegative numeric values; integer counts; required fields present"
+    },
+    {
+      "check": "acquisition_monthly: schema",
+      "status": "pass",
+      "detail": "Expected exported field names and order"
+    },
+    {
+      "check": "acquisition_monthly: rows and month coverage",
+      "status": "pass",
+      "detail": "422 rows; 35 distinct consecutive months; expected 2012-04-01 to 2015-02-01"
+    },
+    {
+      "check": "acquisition_monthly: unique grain",
+      "status": "pass",
+      "detail": "month, channel, utm_source, utm_campaign, device_type"
+    },
+    {
+      "check": "acquisition_monthly: numeric and required values",
+      "status": "pass",
+      "detail": "Finite nonnegative numeric values; integer counts; required fields present"
+    },
+    {
+      "check": "funnel_monthly: schema",
+      "status": "pass",
+      "detail": "Expected exported field names and order"
+    },
+    {
+      "check": "funnel_monthly: rows and month coverage",
+      "status": "pass",
+      "detail": "490 rows; 35 distinct consecutive months; expected 2012-04-01 to 2015-02-01"
+    },
+    {
+      "check": "funnel_monthly: unique grain",
+      "status": "pass",
+      "detail": "month, device_type, stage_order"
+    },
+    {
+      "check": "funnel_monthly: numeric and required values",
+      "status": "pass",
+      "detail": "Finite nonnegative numeric values; integer counts; required fields present"
+    },
+    {
+      "check": "product_monthly: schema",
+      "status": "pass",
+      "detail": "Expected exported field names and order"
+    },
+    {
+      "check": "product_monthly: rows and month coverage",
+      "status": "pass",
+      "detail": "89 rows; 35 distinct consecutive months; expected 2012-04-01 to 2015-02-01"
+    },
+    {
+      "check": "product_monthly: unique grain",
+      "status": "pass",
+      "detail": "month, product_id"
+    },
+    {
+      "check": "product_monthly: numeric and required values",
+      "status": "pass",
+      "detail": "Finite nonnegative numeric values; integer counts; required fields present"
+    },
+    {
+      "check": "refund_monthly: schema",
+      "status": "pass",
+      "detail": "Expected exported field names and order"
+    },
+    {
+      "check": "refund_monthly: rows and month coverage",
+      "status": "pass",
+      "detail": "89 rows; 35 distinct consecutive months; expected 2012-04-01 to 2015-02-01"
+    },
+    {
+      "check": "refund_monthly: unique grain",
+      "status": "pass",
+      "detail": "sale_month, product_id"
+    },
+    {
+      "check": "refund_monthly: numeric and required values",
+      "status": "pass",
+      "detail": "Finite nonnegative numeric values; integer counts; required fields present"
+    },
+    {
+      "check": "customer_sessions_monthly: schema",
+      "status": "pass",
+      "detail": "Expected exported field names and order"
+    },
+    {
+      "check": "customer_sessions_monthly: rows and month coverage",
+      "status": "pass",
+      "detail": "70 rows; 35 distinct consecutive months; expected 2012-04-01 to 2015-02-01"
+    },
+    {
+      "check": "customer_sessions_monthly: unique grain",
+      "status": "pass",
+      "detail": "month, session_type"
+    },
+    {
+      "check": "customer_sessions_monthly: numeric and required values",
+      "status": "pass",
+      "detail": "Finite nonnegative numeric values; integer counts; required fields present"
+    },
+    {
+      "check": "repeat_purchase_cohorts: schema",
+      "status": "pass",
+      "detail": "Expected exported field names and order"
+    },
+    {
+      "check": "repeat_purchase_cohorts: rows and month coverage",
+      "status": "pass",
+      "detail": "32 rows; 32 distinct consecutive months; expected 2012-04-01 to 2014-11-01"
+    },
+    {
+      "check": "repeat_purchase_cohorts: unique grain",
+      "status": "pass",
+      "detail": "first_purchase_month"
+    },
+    {
+      "check": "repeat_purchase_cohorts: numeric and required values",
+      "status": "pass",
+      "detail": "Finite nonnegative numeric values; integer counts; required fields present"
+    },
+    {
+      "check": "Overview: historical snapshot totals",
+      "status": "pass",
+      "detail": "35 complete months; independently retained control totals"
+    },
+    {
+      "check": "Overview: observed timestamp bounds",
+      "status": "pass",
+      "detail": "Within-month observed bounds; this does not prove source coverage"
+    },
+    {
+      "check": "Session measures: denominator relationships",
+      "status": "pass",
+      "detail": "Converting sessions cannot exceed sessions or orders"
+    },
+    {
+      "check": "Overview: supplied rounded ratios",
+      "status": "pass",
+      "detail": "Compare exported two-decimal ratios within 0.01 display units"
+    },
+    {
+      "check": "Acquisition: monthly reconciliation",
+      "status": "pass",
+      "detail": "Every month reconciles on sessions, converting sessions, orders, and exact revenue"
+    },
+    {
+      "check": "Customer sessions: monthly reconciliation",
+      "status": "pass",
+      "detail": "Every month reconciles on sessions, converting sessions, orders, and exact revenue"
+    },
+    {
+      "check": "Products: gross profit identities",
+      "status": "pass",
+      "detail": "Every product-month revenue less COGS equals gross profit"
+    },
+    {
+      "check": "Products: historical snapshot totals",
+      "status": "pass",
+      "detail": "Retained complete-month item-sale totals"
+    },
+    {
+      "check": "Refunds: product denominator reconciliation",
+      "status": "pass",
+      "detail": "All 89 keys, names, and items-sold denominators match"
+    },
+    {
+      "check": "Refunds: valid incidence counts",
+      "status": "pass",
+      "detail": "Refunded items never exceed sold items"
+    },
+    {
+      "check": "Refunds: historical snapshot totals",
+      "status": "pass",
+      "detail": "Retained 30-day sale-cohort counts"
+    },
+    {
+      "check": "Cohorts: valid counts and historical totals",
+      "status": "pass",
+      "detail": "32 first-purchase cohorts; equal 90-day follow-up assumed by the query"
+    },
+    {
+      "check": "Funnel: ordered paths and denominators",
+      "status": "pass",
+      "detail": "Seven stages per month/device; monotonic counts; valid previous-stage and cohort denominators"
+    },
+    {
+      "check": "Funnel: page reach bounds and order count placement",
+      "status": "pass",
+      "detail": "Ordered reach <= page reach <= cohort; orders-table control only on stage 1"
+    },
+    {
+      "check": "Funnel: monthly device reconciliation",
+      "status": "pass",
+      "detail": "All 70 month/device groups reconcile to acquisition"
+    },
+    {
+      "check": "Funnel: observed confirmation and order agreement",
+      "status": "pass",
+      "detail": "Agreement holds for this snapshot; it is not imposed by the funnel definition"
+    }
+  ],
+  "observations": [
+    {
+      "topic": "Item sale month versus session month",
+      "differing_months": 11,
+      "largest_absolute_difference_usd": "79.98",
+      "net_difference_usd": "0.00",
+      "explanation": "Different attribution dates are documented. Matching full-window totals do not prove the cause of each monthly difference."
+    }
+  ],
+  "metrics": {
+    "overview": {
+      "sessions": "455909",
+      "converting_sessions": "30999",
+      "orders": "30999",
+      "gross_revenue": "1856559.28",
+      "conversion_pct": "6.80",
+      "aov_usd": "59.89"
+    },
+    "product_totals": {
+      "items_sold": "38272",
+      "gross_revenue": "1856559.28",
+      "cogs": "692280.28",
+      "gross_profit": "1164279.00"
+    },
+    "refund_totals": {
+      "items_sold": "38272",
+      "refunded_items_30d": "1675",
+      "rate_pct": "4.38"
+    },
+    "cohort_totals": {
+      "customers": "24105",
+      "repeat_customers_90d": "439",
+      "rate_pct": "1.82"
+    },
+    "device": {
+      "desktop": {
+        "sessions": "315407",
+        "converting_sessions": "26650",
+        "orders": "26650",
+        "gross_revenue": "1593207.33"
+      },
+      "mobile": {
+        "sessions": "140502",
+        "converting_sessions": "4349",
+        "orders": "4349",
+        "gross_revenue": "263351.95"
+      }
+    },
+    "channel": {
+      "Direct": {
+        "sessions": "38280",
+        "converting_sessions": "2739",
+        "orders": "2739",
+        "gross_revenue": "166827.51"
+      },
+      "Organic Search": {
+        "sessions": "41488",
+        "converting_sessions": "3106",
+        "orders": "3106",
+        "gross_revenue": "187281.24"
+      },
+      "Paid Search": {
+        "sessions": "365456",
+        "converting_sessions": "24811",
+        "orders": "24811",
+        "gross_revenue": "1480191.20"
+      },
+      "Paid Social": {
+        "sessions": "10685",
+        "converting_sessions": "343",
+        "orders": "343",
+        "gross_revenue": "22259.33"
+      }
+    },
+    "session_type": {
+      "First session": {
+        "sessions": "380541",
+        "converting_sessions": "25111",
+        "orders": "25111",
+        "gross_revenue": "1500734.91"
+      },
+      "Repeat session": {
+        "sessions": "75368",
+        "converting_sessions": "5888",
+        "orders": "5888",
+        "gross_revenue": "355824.37"
+      }
+    },
+    "product": {
+      "The Original Mr. Fuzzy": {
+        "items_sold": "23302",
+        "gross_revenue": "1164866.98",
+        "cogs": "454155.98",
+        "gross_profit": "710711.00"
+      },
+      "The Forever Love Bear": {
+        "items_sold": "5573",
+        "gross_revenue": "334324.27",
+        "cogs": "125336.77",
+        "gross_profit": "208987.50"
+      },
+      "The Birthday Sugar Panda": {
+        "items_sold": "4722",
+        "gross_revenue": "217164.78",
+        "cogs": "68421.78",
+        "gross_profit": "148743.00"
+      },
+      "The Hudson River Mini bear": {
+        "items_sold": "4675",
+        "gross_revenue": "140203.25",
+        "cogs": "44365.75",
+        "gross_profit": "95837.50"
+      }
+    },
+    "refund_product": {
+      "The Original Mr. Fuzzy": {
+        "items_sold": "23302",
+        "refunded_items_30d": "1208"
+      },
+      "The Forever Love Bear": {
+        "items_sold": "5573",
+        "refunded_items_30d": "123"
+      },
+      "The Birthday Sugar Panda": {
+        "items_sold": "4722",
+        "refunded_items_30d": "282"
+      },
+      "The Hudson River Mini bear": {
+        "items_sold": "4675",
+        "refunded_items_30d": "62"
+      }
+    },
+    "years": {
+      "2013": {
+        "sessions": "112781",
+        "converting_sessions": "7447",
+        "orders": "7447",
+        "gross_revenue": "393247.87"
+      },
+      "2014": {
+        "sessions": "233422",
+        "converting_sessions": "16860",
+        "orders": "16860",
+        "gross_revenue": "1075612.19"
+      }
+    }
+  }
+}

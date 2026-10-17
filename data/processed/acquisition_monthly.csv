@@ -1,0 +1,423 @@
+"month","channel","utm_source","utm_campaign","device_type","sessions","converting_sessions","orders","gross_revenue"
+2012-04-01,Direct,,,desktop,40,2,2,99.98
+2012-04-01,Direct,,,mobile,31,3,3,149.97
+2012-04-01,Organic Search,,,desktop,53,2,2,99.98
+2012-04-01,Organic Search,,,mobile,25,0,0,0
+2012-04-01,Paid Search,bsearch,brand,desktop,11,0,0,0
+2012-04-01,Paid Search,gsearch,brand,desktop,42,5,5,249.95
+2012-04-01,Paid Search,gsearch,brand,mobile,23,1,1,49.99
+2012-04-01,Paid Search,gsearch,nonbrand,desktop,2139,75,75,3749.25
+2012-04-01,Paid Search,gsearch,nonbrand,mobile,1370,11,11,549.89
+2012-05-01,Direct,,,desktop,84,6,6,299.94
+2012-05-01,Direct,,,mobile,67,2,2,99.98
+2012-05-01,Organic Search,,,desktop,99,3,3,149.97
+2012-05-01,Organic Search,,,mobile,51,0,0,0
+2012-05-01,Paid Search,bsearch,brand,desktop,24,0,0,0
+2012-05-01,Paid Search,bsearch,brand,mobile,1,0,0,0
+2012-05-01,Paid Search,gsearch,brand,desktop,72,4,4,199.96
+2012-05-01,Paid Search,gsearch,brand,mobile,43,2,2,99.98
+2012-05-01,Paid Search,gsearch,nonbrand,desktop,2276,83,83,4149.17
+2012-05-01,Paid Search,gsearch,nonbrand,mobile,1019,8,8,399.92
+2012-06-01,Direct,,,desktop,99,7,7,349.93
+2012-06-01,Direct,,,mobile,71,1,1,49.99
+2012-06-01,Organic Search,,,desktop,130,10,10,499.90
+2012-06-01,Organic Search,,,mobile,60,0,0,0
+2012-06-01,Paid Search,bsearch,brand,desktop,24,1,1,49.99
+2012-06-01,Paid Search,bsearch,brand,mobile,1,0,0,0
+2012-06-01,Paid Search,gsearch,brand,desktop,88,7,7,349.93
+2012-06-01,Paid Search,gsearch,brand,mobile,51,0,0,0
+2012-06-01,Paid Search,gsearch,nonbrand,desktop,2673,106,106,5298.94
+2012-06-01,Paid Search,gsearch,nonbrand,mobile,766,8,8,399.92
+2012-07-01,Direct,,,desktop,122,8,8,399.92
+2012-07-01,Direct,,,mobile,65,1,1,49.99
+2012-07-01,Organic Search,,,desktop,137,10,10,499.90
+2012-07-01,Organic Search,,,mobile,70,3,3,149.97
+2012-07-01,Paid Search,bsearch,brand,desktop,38,2,2,99.98
+2012-07-01,Paid Search,bsearch,brand,mobile,6,0,0,0
+2012-07-01,Paid Search,gsearch,brand,desktop,82,8,8,399.92
+2012-07-01,Paid Search,gsearch,brand,mobile,69,1,1,49.99
+2012-07-01,Paid Search,gsearch,nonbrand,desktop,2774,122,122,6098.78
+2012-07-01,Paid Search,gsearch,nonbrand,mobile,886,14,14,699.86
+2012-08-01,Direct,,,desktop,144,8,8,399.92
+2012-08-01,Direct,,,mobile,106,3,3,149.97
+2012-08-01,Organic Search,,,desktop,181,14,14,699.86
+2012-08-01,Organic Search,,,mobile,84,0,0,0
+2012-08-01,Paid Search,bsearch,brand,desktop,52,3,3,149.97
+2012-08-01,Paid Search,bsearch,brand,mobile,8,0,0,0
+2012-08-01,Paid Search,bsearch,nonbrand,desktop,577,16,16,799.84
+2012-08-01,Paid Search,bsearch,nonbrand,mobile,68,0,0,0
+2012-08-01,Paid Search,gsearch,brand,desktop,124,9,9,449.91
+2012-08-01,Paid Search,gsearch,brand,mobile,80,1,1,49.99
+2012-08-01,Paid Search,gsearch,nonbrand,desktop,3515,165,165,8248.35
+2012-08-01,Paid Search,gsearch,nonbrand,mobile,1158,9,9,449.91
+2012-09-01,Direct,,,desktop,164,9,9,449.91
+2012-09-01,Direct,,,mobile,121,3,3,149.97
+2012-09-01,Organic Search,,,desktop,221,11,11,549.89
+2012-09-01,Organic Search,,,mobile,110,2,2,99.98
+2012-09-01,Paid Search,bsearch,brand,desktop,63,8,8,399.92
+2012-09-01,Paid Search,bsearch,brand,mobile,12,0,0,0
+2012-09-01,Paid Search,bsearch,nonbrand,desktop,1222,64,64,3199.36
+2012-09-01,Paid Search,bsearch,nonbrand,mobile,142,2,2,99.98
+2012-09-01,Paid Search,gsearch,brand,desktop,154,14,14,699.86
+2012-09-01,Paid Search,gsearch,brand,mobile,110,2,2,99.98
+2012-09-01,Paid Search,gsearch,nonbrand,desktop,3171,155,155,7748.45
+2012-09-01,Paid Search,gsearch,nonbrand,mobile,1056,17,17,849.83
+2012-10-01,Direct,,,desktop,258,16,16,799.84
+2012-10-01,Direct,,,mobile,182,10,10,499.90
+2012-10-01,Organic Search,,,desktop,286,20,20,999.80
+2012-10-01,Organic Search,,,mobile,142,2,2,99.98
+2012-10-01,Paid Search,bsearch,brand,desktop,83,4,4,199.96
+2012-10-01,Paid Search,bsearch,brand,mobile,12,0,0,0
+2012-10-01,Paid Search,bsearch,nonbrand,desktop,1544,84,84,4199.16
+2012-10-01,Paid Search,bsearch,nonbrand,mobile,142,1,1,49.99
+2012-10-01,Paid Search,gsearch,brand,desktop,214,12,12,599.88
+2012-10-01,Paid Search,gsearch,brand,mobile,123,3,3,149.97
+2012-10-01,Paid Search,gsearch,nonbrand,desktop,3934,201,201,10047.99
+2012-10-01,Paid Search,gsearch,nonbrand,mobile,1263,18,18,899.82
+2012-11-01,Direct,,,desktop,319,20,20,999.80
+2012-11-01,Direct,,,mobile,252,5,5,249.95
+2012-11-01,Organic Search,,,desktop,403,25,25,1249.75
+2012-11-01,Organic Search,,,mobile,221,1,1,49.99
+2012-11-01,Paid Search,bsearch,brand,desktop,89,5,5,249.95
+2012-11-01,Paid Search,bsearch,brand,mobile,9,0,0,0
+2012-11-01,Paid Search,bsearch,nonbrand,desktop,2782,143,143,7148.57
+2012-11-01,Paid Search,bsearch,nonbrand,mobile,221,2,2,99.98
+2012-11-01,Paid Search,gsearch,brand,desktop,271,16,16,799.84
+2012-11-01,Paid Search,gsearch,brand,mobile,187,5,5,249.95
+2012-11-01,Paid Search,gsearch,nonbrand,desktop,7007,354,354,17696.46
+2012-11-01,Paid Search,gsearch,nonbrand,mobile,2250,42,42,2099.58
+2012-12-01,Direct,,,desktop,374,31,31,1549.69
+2012-12-01,Direct,,,mobile,272,7,7,349.93
+2012-12-01,Organic Search,,,desktop,477,38,38,1899.62
+2012-12-01,Organic Search,,,mobile,215,8,8,399.92
+2012-12-01,Paid Search,bsearch,brand,desktop,107,7,7,349.93
+2012-12-01,Paid Search,bsearch,brand,mobile,18,1,1,49.99
+2012-12-01,Paid Search,bsearch,nonbrand,desktop,1412,78,78,3899.22
+2012-12-01,Paid Search,bsearch,nonbrand,mobile,159,3,3,149.97
+2012-12-01,Paid Search,gsearch,brand,desktop,328,30,30,1499.70
+2012-12-01,Paid Search,gsearch,brand,mobile,215,5,5,249.95
+2012-12-01,Paid Search,gsearch,nonbrand,desktop,4947,282,282,14097.18
+2012-12-01,Paid Search,gsearch,nonbrand,mobile,1548,16,16,799.84
+2013-01-01,Direct,,,desktop,350,30,30,1529.70
+2013-01-01,Direct,,,mobile,257,6,6,309.94
+2013-01-01,Organic Search,,,desktop,435,40,40,2029.60
+2013-01-01,Organic Search,,,mobile,227,8,8,409.92
+2013-01-01,Paid Search,bsearch,brand,desktop,100,9,9,459.91
+2013-01-01,Paid Search,bsearch,brand,mobile,14,1,1,49.99
+2013-01-01,Paid Search,bsearch,nonbrand,desktop,732,51,51,2619.49
+2013-01-01,Paid Search,bsearch,nonbrand,mobile,79,2,2,99.98
+2013-01-01,Paid Search,gsearch,brand,desktop,305,25,25,1289.75
+2013-01-01,Paid Search,gsearch,brand,mobile,211,6,6,309.94
+2013-01-01,Paid Search,gsearch,nonbrand,desktop,2795,190,190,9728.10
+2013-01-01,Paid Search,gsearch,nonbrand,mobile,896,23,23,1179.77
+2013-02-01,Direct,,,desktop,282,26,26,1339.74
+2013-02-01,Direct,,,mobile,188,11,11,599.89
+2013-02-01,Organic Search,,,desktop,331,35,35,1809.65
+2013-02-01,Organic Search,,,mobile,197,8,8,419.92
+2013-02-01,Paid Search,bsearch,brand,desktop,77,7,7,349.93
+2013-02-01,Paid Search,bsearch,brand,mobile,9,0,0,0
+2013-02-01,Paid Search,bsearch,nonbrand,desktop,856,66,66,3499.34
+2013-02-01,Paid Search,bsearch,nonbrand,mobile,104,3,3,169.97
+2013-02-01,Paid Search,gsearch,brand,desktop,230,34,34,1809.66
+2013-02-01,Paid Search,gsearch,brand,mobile,152,5,5,279.95
+2013-02-01,Paid Search,gsearch,nonbrand,desktop,3603,271,271,14497.29
+2013-02-01,Paid Search,gsearch,nonbrand,mobile,1139,31,31,1689.69
+2013-03-01,Direct,,,desktop,235,17,17,899.83
+2013-03-01,Direct,,,mobile,170,1,1,49.99
+2013-03-01,Organic Search,,,desktop,319,30,30,1519.70
+2013-03-01,Organic Search,,,mobile,152,4,4,209.96
+2013-03-01,Paid Search,bsearch,brand,desktop,71,4,4,209.96
+2013-03-01,Paid Search,bsearch,brand,mobile,13,0,0,0
+2013-03-01,Paid Search,bsearch,nonbrand,desktop,776,58,58,3029.42
+2013-03-01,Paid Search,bsearch,nonbrand,mobile,95,3,3,149.97
+2013-03-01,Paid Search,gsearch,brand,desktop,205,15,15,779.85
+2013-03-01,Paid Search,gsearch,brand,mobile,149,2,2,109.98
+2013-03-01,Paid Search,gsearch,nonbrand,desktop,3082,224,224,11507.76
+2013-03-01,Paid Search,gsearch,nonbrand,mobile,997,27,27,1429.73
+2013-04-01,Direct,,,desktop,280,27,27,1389.73
+2013-04-01,Direct,,,mobile,203,6,6,329.94
+2013-04-01,Organic Search,,,desktop,327,37,37,1939.63
+2013-04-01,Organic Search,,,mobile,185,4,4,209.96
+2013-04-01,Paid Search,bsearch,brand,desktop,80,4,4,209.96
+2013-04-01,Paid Search,bsearch,brand,mobile,16,0,0,0
+2013-04-01,Paid Search,bsearch,nonbrand,desktop,1025,71,71,3649.29
+2013-04-01,Paid Search,bsearch,nonbrand,mobile,114,6,6,309.94
+2013-04-01,Paid Search,gsearch,brand,desktop,252,28,28,1459.72
+2013-04-01,Paid Search,gsearch,brand,mobile,148,4,4,199.96
+2013-04-01,Paid Search,gsearch,nonbrand,desktop,4058,335,335,17266.65
+2013-04-01,Paid Search,gsearch,nonbrand,mobile,1283,31,31,1619.69
+2013-05-01,Direct,,,desktop,338,36,36,1839.64
+2013-05-01,Direct,,,mobile,226,8,8,419.92
+2013-05-01,Organic Search,,,desktop,438,47,47,2399.53
+2013-05-01,Organic Search,,,mobile,188,4,4,199.96
+2013-05-01,Paid Search,bsearch,brand,desktop,113,7,7,379.93
+2013-05-01,Paid Search,bsearch,brand,mobile,16,0,0,0
+2013-05-01,Paid Search,bsearch,nonbrand,desktop,1059,75,75,3909.25
+2013-05-01,Paid Search,bsearch,nonbrand,mobile,87,4,4,209.96
+2013-05-01,Paid Search,gsearch,brand,desktop,281,22,22,1149.78
+2013-05-01,Paid Search,gsearch,brand,mobile,195,4,4,199.96
+2013-05-01,Paid Search,gsearch,nonbrand,desktop,4247,321,321,16426.79
+2013-05-01,Paid Search,gsearch,nonbrand,mobile,1261,43,43,2229.57
+2013-06-01,Direct,,,desktop,342,36,36,1879.64
+2013-06-01,Direct,,,mobile,229,6,6,319.94
+2013-06-01,Organic Search,,,desktop,399,40,40,2069.60
+2013-06-01,Organic Search,,,mobile,226,2,2,109.98
+2013-06-01,Paid Search,bsearch,brand,desktop,96,7,7,359.93
+2013-06-01,Paid Search,bsearch,brand,mobile,12,0,0,0
+2013-06-01,Paid Search,bsearch,nonbrand,desktop,1049,79,79,4039.21
+2013-06-01,Paid Search,bsearch,nonbrand,mobile,99,2,2,99.98
+2013-06-01,Paid Search,gsearch,brand,desktop,292,33,33,1699.67
+2013-06-01,Paid Search,gsearch,brand,mobile,179,5,5,279.95
+2013-06-01,Paid Search,gsearch,nonbrand,desktop,4093,351,351,18006.49
+2013-06-01,Paid Search,gsearch,nonbrand,mobile,1309,33,33,1729.67
+2013-07-01,Direct,,,desktop,373,38,38,1919.62
+2013-07-01,Direct,,,mobile,267,17,17,879.83
+2013-07-01,Organic Search,,,desktop,477,49,49,2539.51
+2013-07-01,Organic Search,,,mobile,251,9,9,469.91
+2013-07-01,Paid Search,bsearch,brand,desktop,114,11,11,569.89
+2013-07-01,Paid Search,bsearch,brand,mobile,15,0,0,0
+2013-07-01,Paid Search,bsearch,nonbrand,desktop,1048,80,80,4119.20
+2013-07-01,Paid Search,bsearch,nonbrand,mobile,115,6,6,299.94
+2013-07-01,Paid Search,gsearch,brand,desktop,359,25,25,1319.75
+2013-07-01,Paid Search,gsearch,brand,mobile,230,9,9,459.91
+2013-07-01,Paid Search,gsearch,nonbrand,desktop,4328,316,316,16286.84
+2013-07-01,Paid Search,gsearch,nonbrand,mobile,1326,43,43,2229.57
+2013-08-01,Direct,,,desktop,374,34,34,1759.66
+2013-08-01,Direct,,,mobile,288,6,6,309.94
+2013-08-01,Organic Search,,,desktop,509,47,47,2399.53
+2013-08-01,Organic Search,,,mobile,264,6,6,309.94
+2013-08-01,Paid Search,bsearch,brand,desktop,116,13,13,679.87
+2013-08-01,Paid Search,bsearch,brand,mobile,26,0,0,0
+2013-08-01,Paid Search,bsearch,nonbrand,desktop,989,71,71,3629.29
+2013-08-01,Paid Search,bsearch,nonbrand,mobile,157,7,7,349.93
+2013-08-01,Paid Search,gsearch,brand,desktop,356,40,40,2079.60
+2013-08-01,Paid Search,gsearch,brand,mobile,224,3,3,169.97
+2013-08-01,Paid Search,gsearch,nonbrand,desktop,4174,321,321,16526.79
+2013-08-01,Paid Search,gsearch,nonbrand,mobile,1703,60,60,3159.40
+2013-09-01,Direct,,,desktop,394,36,36,1989.62
+2013-09-01,Direct,,,mobile,294,12,12,609.88
+2013-09-01,Organic Search,,,desktop,512,46,46,2369.54
+2013-09-01,Organic Search,,,mobile,263,10,10,509.90
+2013-09-01,Paid Search,bsearch,brand,desktop,120,6,6,299.94
+2013-09-01,Paid Search,bsearch,brand,mobile,25,0,0,0
+2013-09-01,Paid Search,bsearch,nonbrand,desktop,997,73,73,3709.27
+2013-09-01,Paid Search,bsearch,nonbrand,mobile,210,8,8,419.92
+2013-09-01,Paid Search,gsearch,brand,desktop,353,36,36,1859.64
+2013-09-01,Paid Search,gsearch,brand,mobile,238,10,10,519.90
+2013-09-01,Paid Search,gsearch,nonbrand,desktop,3991,329,329,17176.67
+2013-09-01,Paid Search,gsearch,nonbrand,mobile,2183,63,63,3259.37
+2013-10-01,Direct,,,desktop,502,39,39,2029.61
+2013-10-01,Direct,,,mobile,368,15,15,899.83
+2013-10-01,Organic Search,,,desktop,611,52,52,2949.43
+2013-10-01,Organic Search,,,mobile,310,9,9,479.91
+2013-10-01,Paid Search,bsearch,brand,desktop,140,14,14,719.86
+2013-10-01,Paid Search,bsearch,brand,mobile,24,0,0,0
+2013-10-01,Paid Search,bsearch,nonbrand,desktop,1120,71,71,3819.26
+2013-10-01,Paid Search,bsearch,nonbrand,mobile,178,4,4,209.96
+2013-10-01,Paid Search,gsearch,brand,desktop,423,46,46,2419.53
+2013-10-01,Paid Search,gsearch,brand,mobile,269,7,7,349.93
+2013-10-01,Paid Search,gsearch,nonbrand,desktop,4482,385,385,20965.97
+2013-10-01,Paid Search,gsearch,nonbrand,mobile,2346,66,66,3399.33
+2013-11-01,Direct,,,desktop,564,43,43,2319.56
+2013-11-01,Direct,,,mobile,382,11,11,629.88
+2013-11-01,Organic Search,,,desktop,628,56,56,3299.37
+2013-11-01,Organic Search,,,mobile,341,13,13,669.87
+2013-11-01,Paid Search,bsearch,brand,desktop,156,15,15,779.85
+2013-11-01,Paid Search,bsearch,brand,mobile,27,2,2,99.98
+2013-11-01,Paid Search,bsearch,nonbrand,desktop,1383,88,88,4569.12
+2013-11-01,Paid Search,bsearch,nonbrand,mobile,286,4,4,209.96
+2013-11-01,Paid Search,gsearch,brand,desktop,473,48,48,2489.51
+2013-11-01,Paid Search,gsearch,brand,mobile,304,7,7,359.93
+2013-11-01,Paid Search,gsearch,nonbrand,desktop,6124,461,461,24905.20
+2013-11-01,Paid Search,gsearch,nonbrand,mobile,3364,113,113,6298.79
+2013-12-01,Direct,,,desktop,710,71,71,3915.23
+2013-12-01,Direct,,,mobile,520,18,18,1035.80
+2013-12-01,Organic Search,,,desktop,850,83,83,4871.06
+2013-12-01,Organic Search,,,mobile,474,10,10,499.90
+2013-12-01,Paid Search,bsearch,brand,desktop,203,27,27,1579.69
+2013-12-01,Paid Search,bsearch,brand,mobile,40,1,1,59.99
+2013-12-01,Paid Search,bsearch,nonbrand,desktop,1519,101,101,5646.90
+2013-12-01,Paid Search,bsearch,nonbrand,mobile,359,23,23,1195.77
+2013-12-01,Paid Search,gsearch,brand,desktop,609,67,67,3585.30
+2013-12-01,Paid Search,gsearch,brand,mobile,429,14,14,757.85
+2013-12-01,Paid Search,gsearch,nonbrand,desktop,6552,505,505,28194.46
+2013-12-01,Paid Search,gsearch,nonbrand,mobile,3470,127,127,6920.65
+2014-01-01,Direct,,,desktop,809,85,85,4703.08
+2014-01-01,Direct,,,mobile,511,16,16,917.82
+2014-01-01,Organic Search,,,desktop,900,77,77,4467.12
+2014-01-01,Organic Search,,,mobile,504,16,16,993.81
+2014-01-01,Paid Search,bsearch,brand,desktop,224,28,28,1565.69
+2014-01-01,Paid Search,bsearch,brand,mobile,38,1,1,49.99
+2014-01-01,Paid Search,bsearch,nonbrand,desktop,1384,99,99,5706.89
+2014-01-01,Paid Search,bsearch,nonbrand,mobile,230,10,10,659.87
+2014-01-01,Paid Search,gsearch,brand,desktop,665,78,78,4343.15
+2014-01-01,Paid Search,gsearch,brand,mobile,442,13,13,873.83
+2014-01-01,Paid Search,gsearch,nonbrand,desktop,4948,451,451,25738.94
+2014-01-01,Paid Search,gsearch,nonbrand,mobile,2552,92,92,5414.93
+2014-01-01,Paid Social,socialbook,pilot,desktop,168,7,7,539.89
+2014-01-01,Paid Social,socialbook,pilot,mobile,1450,10,10,653.87
+2014-02-01,Direct,,,desktop,761,80,80,5400.88
+2014-02-01,Direct,,,mobile,552,20,20,1171.76
+2014-02-01,Organic Search,,,desktop,994,113,113,7286.52
+2014-02-01,Organic Search,,,mobile,512,14,14,921.80
+2014-02-01,Paid Search,bsearch,brand,desktop,236,17,17,1061.78
+2014-02-01,Paid Search,bsearch,brand,mobile,34,1,1,49.99
+2014-02-01,Paid Search,bsearch,nonbrand,desktop,1358,101,101,6670.66
+2014-02-01,Paid Search,bsearch,nonbrand,mobile,288,11,11,765.84
+2014-02-01,Paid Search,gsearch,brand,desktop,659,68,68,4145.16
+2014-02-01,Paid Search,gsearch,brand,mobile,431,16,16,1087.78
+2014-02-01,Paid Search,gsearch,nonbrand,desktop,5393,454,454,29383.97
+2014-02-01,Paid Search,gsearch,nonbrand,mobile,2830,102,102,6550.68
+2014-02-01,Paid Social,socialbook,pilot,desktop,226,8,8,431.91
+2014-02-01,Paid Social,socialbook,pilot,mobile,2011,16,16,1103.78
+2014-03-01,Direct,,,desktop,837,89,89,5802.75
+2014-03-01,Direct,,,mobile,594,21,21,1209.75
+2014-03-01,Organic Search,,,desktop,1021,106,106,6944.55
+2014-03-01,Organic Search,,,mobile,540,12,12,791.83
+2014-03-01,Paid Search,bsearch,brand,desktop,268,35,35,2193.55
+2014-03-01,Paid Search,bsearch,brand,mobile,33,2,2,109.98
+2014-03-01,Paid Search,bsearch,nonbrand,desktop,1363,114,114,7514.45
+2014-03-01,Paid Search,bsearch,nonbrand,mobile,264,9,9,541.89
+2014-03-01,Paid Search,gsearch,brand,desktop,729,80,80,5074.93
+2014-03-01,Paid Search,gsearch,brand,mobile,458,15,15,973.80
+2014-03-01,Paid Search,gsearch,nonbrand,desktop,5453,471,471,29973.72
+2014-03-01,Paid Search,gsearch,nonbrand,mobile,2869,97,97,5964.77
+2014-03-01,Paid Social,socialbook,pilot,desktop,128,2,2,185.96
+2014-03-01,Paid Social,socialbook,pilot,mobile,1112,12,12,827.82
+2014-04-01,Direct,,,desktop,952,108,108,6808.57
+2014-04-01,Direct,,,mobile,694,25,25,1583.66
+2014-04-01,Organic Search,,,desktop,1123,117,117,7372.45
+2014-04-01,Organic Search,,,mobile,637,19,19,1297.72
+2014-04-01,Paid Search,bsearch,brand,desktop,263,30,30,2001.58
+2014-04-01,Paid Search,bsearch,brand,mobile,39,0,0,0
+2014-04-01,Paid Search,bsearch,nonbrand,desktop,1680,111,111,6908.54
+2014-04-01,Paid Search,bsearch,nonbrand,mobile,328,12,12,755.84
+2014-04-01,Paid Search,gsearch,brand,desktop,772,95,95,5986.75
+2014-04-01,Paid Search,gsearch,brand,mobile,556,21,21,1205.76
+2014-04-01,Paid Search,gsearch,nonbrand,desktop,6729,558,558,35276.58
+2014-04-01,Paid Search,gsearch,nonbrand,mobile,3580,145,145,9527.98
+2014-05-01,Direct,,,desktop,981,96,96,6284.71
+2014-05-01,Direct,,,mobile,694,25,25,1537.69
+2014-05-01,Organic Search,,,desktop,1243,139,139,8648.18
+2014-05-01,Organic Search,,,mobile,646,21,21,1457.69
+2014-05-01,Paid Search,bsearch,brand,desktop,292,26,26,1757.62
+2014-05-01,Paid Search,bsearch,brand,mobile,39,2,2,125.97
+2014-05-01,Paid Search,bsearch,nonbrand,desktop,1693,136,136,8578.20
+2014-05-01,Paid Search,bsearch,nonbrand,mobile,391,12,12,735.84
+2014-05-01,Paid Search,gsearch,brand,desktop,806,89,89,6060.74
+2014-05-01,Paid Search,gsearch,brand,mobile,577,16,16,983.80
+2014-05-01,Paid Search,gsearch,nonbrand,desktop,6819,649,649,42423.03
+2014-05-01,Paid Search,gsearch,nonbrand,mobile,3880,157,157,10341.80
+2014-06-01,Direct,,,desktop,979,91,91,5858.77
+2014-06-01,Direct,,,mobile,673,22,22,1381.72
+2014-06-01,Organic Search,,,desktop,1149,115,115,7194.48
+2014-06-01,Organic Search,,,mobile,670,25,25,1585.67
+2014-06-01,Paid Search,bsearch,brand,desktop,289,28,28,1785.61
+2014-06-01,Paid Search,bsearch,brand,mobile,44,0,0,0
+2014-06-01,Paid Search,bsearch,nonbrand,desktop,1752,147,147,9230.08
+2014-06-01,Paid Search,bsearch,nonbrand,mobile,300,9,9,659.87
+2014-06-01,Paid Search,gsearch,brand,desktop,835,85,85,5596.84
+2014-06-01,Paid Search,gsearch,brand,mobile,590,18,18,1273.73
+2014-06-01,Paid Search,gsearch,nonbrand,desktop,6760,566,566,36968.26
+2014-06-01,Paid Search,gsearch,nonbrand,mobile,3674,133,133,8516.22
+2014-07-01,Direct,,,desktop,1170,100,100,6394.64
+2014-07-01,Direct,,,mobile,728,26,26,1633.66
+2014-07-01,Organic Search,,,desktop,1311,128,128,7764.35
+2014-07-01,Organic Search,,,mobile,702,20,20,1261.75
+2014-07-01,Paid Search,bsearch,brand,desktop,319,29,29,1929.59
+2014-07-01,Paid Search,bsearch,brand,mobile,44,5,5,401.92
+2014-07-01,Paid Search,bsearch,nonbrand,desktop,1809,119,119,7922.35
+2014-07-01,Paid Search,bsearch,nonbrand,mobile,320,3,3,145.97
+2014-07-01,Paid Search,gsearch,brand,desktop,902,86,86,5454.85
+2014-07-01,Paid Search,gsearch,brand,mobile,608,24,24,1691.64
+2014-07-01,Paid Search,gsearch,nonbrand,desktop,7248,609,609,39841.65
+2014-07-01,Paid Search,gsearch,nonbrand,mobile,3877,138,138,8906.17
+2014-08-01,Direct,,,desktop,1118,109,109,6864.56
+2014-08-01,Direct,,,mobile,747,20,20,1299.73
+2014-08-01,Organic Search,,,desktop,1279,119,119,7490.42
+2014-08-01,Organic Search,,,mobile,669,19,19,1167.76
+2014-08-01,Paid Search,bsearch,brand,desktop,289,23,23,1585.67
+2014-08-01,Paid Search,bsearch,brand,mobile,49,0,0,0
+2014-08-01,Paid Search,bsearch,nonbrand,desktop,1681,137,137,8808.10
+2014-08-01,Paid Search,bsearch,nonbrand,mobile,340,9,9,611.88
+2014-08-01,Paid Search,gsearch,brand,desktop,910,98,98,6494.61
+2014-08-01,Paid Search,gsearch,brand,mobile,638,24,24,1361.72
+2014-08-01,Paid Search,gsearch,nonbrand,desktop,6818,626,626,40211.47
+2014-08-01,Paid Search,gsearch,nonbrand,mobile,3632,126,126,7832.36
+2014-08-01,Paid Social,socialbook,desktop_targeted,desktop,420,14,14,927.81
+2014-09-01,Direct,,,desktop,1149,116,116,7722.36
+2014-09-01,Direct,,,mobile,814,31,31,2113.57
+2014-09-01,Organic Search,,,desktop,1381,134,134,8750.14
+2014-09-01,Organic Search,,,mobile,733,25,25,1423.72
+2014-09-01,Paid Search,bsearch,brand,desktop,343,32,32,2017.57
+2014-09-01,Paid Search,bsearch,brand,mobile,45,3,3,195.96
+2014-09-01,Paid Search,bsearch,nonbrand,desktop,1754,159,159,10421.75
+2014-09-01,Paid Search,bsearch,nonbrand,mobile,313,7,7,435.91
+2014-09-01,Paid Search,gsearch,brand,desktop,932,92,92,5932.73
+2014-09-01,Paid Search,gsearch,brand,mobile,635,16,16,937.82
+2014-09-01,Paid Search,gsearch,nonbrand,desktop,6828,631,631,40469.45
+2014-09-01,Paid Search,gsearch,nonbrand,mobile,3739,129,129,8668.17
+2014-09-01,Paid Social,socialbook,desktop_targeted,desktop,847,49,49,3143.34
+2014-10-01,Direct,,,desktop,1229,125,125,7726.36
+2014-10-01,Direct,,,mobile,912,36,36,2345.51
+2014-10-01,Organic Search,,,desktop,1561,175,175,11487.57
+2014-10-01,Organic Search,,,mobile,823,24,24,1377.72
+2014-10-01,Paid Search,bsearch,brand,desktop,376,33,33,2333.52
+2014-10-01,Paid Search,bsearch,brand,mobile,63,2,2,109.98
+2014-10-01,Paid Search,bsearch,nonbrand,desktop,1841,180,180,11427.55
+2014-10-01,Paid Search,bsearch,nonbrand,mobile,353,14,14,813.82
+2014-10-01,Paid Search,gsearch,brand,desktop,1045,124,124,7968.35
+2014-10-01,Paid Search,gsearch,brand,mobile,724,28,28,1875.61
+2014-10-01,Paid Search,gsearch,nonbrand,desktop,7473,686,686,44128.61
+2014-10-01,Paid Search,gsearch,nonbrand,mobile,3977,127,127,8480.18
+2014-10-01,Paid Social,socialbook,desktop_targeted,desktop,1149,55,55,3831.20
+2014-11-01,Direct,,,desktop,1159,131,131,8702.15
+2014-11-01,Direct,,,mobile,1002,40,40,2547.48
+2014-11-01,Organic Search,,,desktop,1432,151,151,9499.98
+2014-11-01,Organic Search,,,mobile,861,35,35,2105.55
+2014-11-01,Paid Search,bsearch,brand,desktop,385,44,44,2811.41
+2014-11-01,Paid Search,bsearch,brand,mobile,52,1,1,49.99
+2014-11-01,Paid Search,bsearch,nonbrand,desktop,2463,235,235,15176.80
+2014-11-01,Paid Search,bsearch,nonbrand,mobile,415,11,11,679.86
+2014-11-01,Paid Search,gsearch,brand,desktop,1133,121,121,7416.45
+2014-11-01,Paid Search,gsearch,brand,mobile,760,23,23,1439.72
+2014-11-01,Paid Search,gsearch,nonbrand,desktop,9650,973,973,63758.52
+2014-11-01,Paid Search,gsearch,nonbrand,mobile,4286,138,138,9042.09
+2014-11-01,Paid Social,socialbook,desktop_targeted,desktop,1527,82,82,4932.98
+2014-12-01,Direct,,,desktop,1589,168,168,10469.81
+2014-12-01,Direct,,,mobile,1223,32,32,1951.58
+2014-12-01,Organic Search,,,desktop,1899,190,190,11473.50
+2014-12-01,Organic Search,,,mobile,1142,30,30,1877.61
+2014-12-01,Paid Search,bsearch,brand,desktop,517,62,62,3879.16
+2014-12-01,Paid Search,bsearch,brand,mobile,81,1,1,49.99
+2014-12-01,Paid Search,bsearch,nonbrand,desktop,2556,224,224,13497.13
+2014-12-01,Paid Search,bsearch,nonbrand,mobile,491,19,19,1187.74
+2014-12-01,Paid Search,gsearch,brand,desktop,1453,147,147,9334.00
+2014-12-01,Paid Search,gsearch,brand,mobile,985,29,29,1747.62
+2014-12-01,Paid Search,gsearch,nonbrand,desktop,11291,1128,1128,71318.74
+2014-12-01,Paid Search,gsearch,nonbrand,mobile,4848,196,196,12355.37
+2014-12-01,Paid Social,socialbook,desktop_targeted,desktop,1647,88,88,5680.77
+2015-01-01,Direct,,,desktop,1751,176,176,11355.54
+2015-01-01,Direct,,,mobile,1123,39,39,2359.49
+2015-01-01,Organic Search,,,desktop,2057,239,239,14870.82
+2015-01-01,Organic Search,,,mobile,1038,31,31,2061.56
+2015-01-01,Paid Search,bsearch,brand,desktop,453,46,46,2957.35
+2015-01-01,Paid Search,bsearch,brand,mobile,78,0,0,0
+2015-01-01,Paid Search,bsearch,nonbrand,desktop,2380,209,209,13155.15
+2015-01-01,Paid Search,bsearch,nonbrand,mobile,369,11,11,851.81
+2015-01-01,Paid Search,gsearch,brand,desktop,1427,166,166,10127.81
+2015-01-01,Paid Search,gsearch,brand,mobile,935,26,26,1669.65
+2015-01-01,Paid Search,gsearch,nonbrand,desktop,9596,999,999,63262.42
+2015-01-01,Paid Search,gsearch,nonbrand,mobile,4130,157,157,9619.92
+2015-02-01,Direct,,,desktop,1538,173,173,11311.61
+2015-02-01,Direct,,,mobile,1084,47,47,3063.36
+2015-02-01,Organic Search,,,desktop,1809,183,183,11487.61
+2015-02-01,Organic Search,,,mobile,973,31,31,2075.57
+2015-02-01,Paid Search,bsearch,brand,desktop,451,62,62,3735.20
+2015-02-01,Paid Search,bsearch,brand,mobile,58,1,1,59.99
+2015-02-01,Paid Search,bsearch,nonbrand,desktop,2387,217,217,13449.18
+2015-02-01,Paid Search,bsearch,nonbrand,mobile,288,13,13,917.79
+2015-02-01,Paid Search,gsearch,brand,desktop,1288,158,158,9973.90
+2015-02-01,Paid Search,gsearch,brand,mobile,868,23,23,1459.69
+2015-02-01,Paid Search,gsearch,nonbrand,desktop,9130,1007,1007,62239.00
+2015-02-01,Paid Search,gsearch,nonbrand,mobile,3904,152,152,9360.06

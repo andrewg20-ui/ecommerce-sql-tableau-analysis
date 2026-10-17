@@ -1,0 +1,129 @@
+{
+  "prepared_local_date": "2026-10-13",
+  "reporting_period": "2012-04-01 inclusive to 2015-03-01 exclusive, except retained full-history overview and earlier cohort cutoff",
+  "source_provider": "Maven Analytics",
+  "redistribution_terms": "Provider-listed license: Public Domain. Separate license for the author's original code and text not selected.",
+  "validation_runtime": {
+    "python": "3.12.14",
+    "dependencies": "Python standard library only"
+  },
+  "files": [
+    {
+      "file": "processed/monthly_overview.csv",
+      "original_upload_name": "01-monthly_overview.csv.csv",
+      "sha256": "7ea5553130344073e1709abca3f066e2078d9c41fdb7d613ced3fadd7e151960",
+      "size_bytes": 3823,
+      "rows": 37,
+      "columns": [
+        "month",
+        "first_observed_session_at",
+        "last_observed_session_at",
+        "sessions",
+        "converting_sessions",
+        "orders",
+        "gross_revenue",
+        "conversion_pct",
+        "average_order_value",
+        "gross_revenue_per_session"
+      ]
+    },
+    {
+      "file": "processed/acquisition_monthly.csv",
+      "original_upload_name": "01-acquisition_monthly.csv",
+      "sha256": "cdf28c39c70b65ef503cb1b2df867d6270e40c5e0815883c86e395cb35c3ec58",
+      "size_bytes": 24790,
+      "rows": 422,
+      "columns": [
+        "month",
+        "channel",
+        "utm_source",
+        "utm_campaign",
+        "device_type",
+        "sessions",
+        "converting_sessions",
+        "orders",
+        "gross_revenue"
+      ]
+    },
+    {
+      "file": "processed/funnel_monthly.csv",
+      "original_upload_name": "01-funnel_monthly.csv",
+      "sha256": "0bc5222a983e5b2039654a24494bf054bc7d6462268b997a8667f8357b9d5975",
+      "size_bytes": 31294,
+      "rows": 490,
+      "columns": [
+        "month",
+        "device_type",
+        "stage_order",
+        "stage",
+        "stage_sessions",
+        "previous_stage_sessions",
+        "session_cohort_size",
+        "page_reach_sessions",
+        "orders_table_converting_sessions"
+      ]
+    },
+    {
+      "file": "processed/product_monthly.csv",
+      "original_upload_name": "product_monthly.csv",
+      "sha256": "2dda25c59a3b3f0db62b3ee4b2938b9991fc63c72948fd2a6f301995381b59da",
+      "size_bytes": 5963,
+      "rows": 89,
+      "columns": [
+        "month",
+        "product_id",
+        "product_name",
+        "items_sold",
+        "gross_revenue",
+        "cogs",
+        "gross_profit"
+      ]
+    },
+    {
+      "file": "processed/refund_monthly.csv",
+      "original_upload_name": "01-refund_monthly.csv",
+      "sha256": "2fe01a2bd3fb4b88fedcdc15005ec4c2bba9c051424ecc91ff2b68b4fa2f21e4",
+      "size_bytes": 3918,
+      "rows": 89,
+      "columns": [
+        "sale_month",
+        "product_id",
+        "product_name",
+        "items_sold",
+        "refunded_items_30d"
+      ]
+    },
+    {
+      "file": "processed/customer_sessions_monthly.csv",
+      "original_upload_name": "customer_sessions_monthly.csv",
+      "sha256": "fde7594eec06459f4f34cdf611d3750c8e905252d790ce5df20e386e6d92277d",
+      "size_bytes": 3377,
+      "rows": 70,
+      "columns": [
+        "month",
+        "session_type",
+        "sessions",
+        "converting_sessions",
+        "orders",
+        "gross_revenue"
+      ]
+    },
+    {
+      "file": "processed/repeat_purchase_cohorts.csv",
+      "original_upload_name": "repeat_purchase_cohorts.csv",
+      "sha256": "e5114abe91d53556500bbf91efa93da5a1a70f56aba4d37228cb5a54c9f3f826",
+      "size_bytes": 628,
+      "rows": 32,
+      "columns": [
+        "first_purchase_month",
+        "customers",
+        "repeat_customers_90d"
+      ]
+    }
+  ],
+  "dataset_title": "Toy Store E-Commerce Database",
+  "business_name": "Maven Fuzzy Factory",
+  "source_url": "https://mavenanalytics.io/data-playground/toy-store-e-commerce-database",
+  "source_license_verified_local_date": "2026-10-16",
+  "original_retrieval_date_and_version": "Not yet recorded"
+}

@@ -1,0 +1,26 @@
+# Local operating-system and editor files
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+
+# Private credentials and local connection settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+connection.local.*
+
+# Source database copies and raw records are not portfolio artifacts
+data/raw/
+*.dump
+*.backup
+
+# Temporary Tableau files and local recovery copies
+*.twbr
+*.tmp
+~$*
