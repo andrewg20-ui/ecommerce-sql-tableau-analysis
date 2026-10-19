@@ -17,10 +17,11 @@ This file records what was actually executed. A prepared query or matching CSV d
 | Raw-event coverage verified | Not established from aggregate exports |
 | CSV validation | Executed against all seven packaged exports; 44/44 check groups pass |
 | Tableau review | Prior three-dashboard reviews retained. The received package includes 22 worksheets, three dashboards, and seven extracts. Static XML and cached-thumbnail inspection completed; no live Tableau rendering or interaction was performed here. |
-| Workbook saved defaults | Overview: April 1, 2012–February 28, 2015 on all eight overview sheets. Website Funnel: Mobile; reset to (All). |
-| Workbook source lineage | The source captioned monthly_overview.csv references acquisition_monthly.csv; correct it to the intended overview CSV and regenerate its extract. Other six source filenames agree with their intended export names. |
+| Workbook saved defaults | Revised package: April 1, 2012–February 28, 2015 on all eight overview sheets; Website Funnel includes all device members. Both saved-default handoffs are resolved. |
+| Workbook source lineage | Revised package: all seven text connection filenames agree with their intended exports, including monthly_overview.csv. A new overview extract is embedded. A retained internal table identifier still includes the former acquisition name; the active filename is correct, so that name alone does not establish an unresolved connection problem. |
 | Embedded extract row verification | Not independently queried: the local Hyper process could not start because the runtime denied its socket operation. Existing CSV checks do not establish embedded-extract equality. |
-| Packaged workbook checksum | SHA-256: 970a13ca6eda1f5693462629b16e616407c9b115dcf3ac8d9a6e7c31bd19ea12; received file copied without modification |
+| Saved preview checks | Overview revenue $1,856,559.28; sessions 455,909; orders 30,999; conversion 6.80%; AOV $59.89. All-device Cart count 91,127. Cached images, not fresh rendering. |
+| Packaged workbook checksum | SHA-256: 7b6fc7324031b3683153429c51f641d83e8f8469613f744e2f7062528b36e0e2; received ecommerce(1).twbx copied unchanged to tableau/ecommerce.twbx |
 | Recommendations | Author reports saved and stored on October 13, 2026; implementation outcomes not measured |
 
 When rerunning a query, add a row below with its filename, execution date, database/dataset version, exported row count, and any changes. Do not backfill unobserved runs as completed.

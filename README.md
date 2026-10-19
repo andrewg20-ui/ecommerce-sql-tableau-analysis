@@ -8,7 +8,7 @@ An analysis of growth, acquisition, website conversion, product economics, refun
 
 **Reporting period:** April 2012–February 2015, with first-purchase cohorts through November 2014 to allow a full 90-day repeat-purchase window. The overview export also retains the two partial boundary months for reference; they are excluded from the headline results below.
 
-**Project status:** Analysis and dashboard reviews are complete. This repository includes the recovered export SQL, aggregate outputs, source attribution, documentation, and runnable export checks. A packaged Tableau workbook is included. Two saved-workbook settings, presentation images, the public dashboard link, and the exact executed SQL environment remain to be finalized. See the [release checklist](docs/release_checklist.md).
+**Project status:** Analysis and dashboard reviews are complete. This repository includes the recovered export SQL, aggregate outputs, source attribution, documentation, and runnable export checks. The revised packaged Tableau workbook is included, with the overview source connection and default filters confirmed in its saved settings. Presentation images, the public dashboard link, and the exact executed SQL environment remain to be finalized. See the [release checklist](docs/release_checklist.md).
 
 ## Business snapshot
 
@@ -44,7 +44,7 @@ See [findings and evidence](docs/findings.md) and [prioritized recommendations](
 | Acquisition & Funnel | Compare channels and devices; inspect the ordered conversion path. |
 | Products, Refunds & Customers | Compare product economics and mix, 30-day refunds, session types, and 90-day purchase cohorts. |
 
-[Download the packaged workbook](tableau/ecommerce.twbx) received October 18, 2026. It contains all three dashboards and seven embedded extracts. This saved draft still opens the funnel on Mobile, and the source labeled `monthly_overview.csv` references `acquisition_monthly.csv`. The overview's saved date filter is correct, and its cached preview shows the expected headline counts and revenue; source lineage and the funnel default still need correction in Tableau. Full-size dashboard images and a Tableau Public link remain pending. See [workbook review and handoff](tableau/README.md).
+[Download the revised packaged workbook](tableau/ecommerce.twbx) received October 18, 2026. It contains all three dashboards and seven embedded extracts. The overview connects to `monthly_overview.csv`, keeps April 2012–February 2015 selected, and the funnel defaults to all devices. Saved previews match the five headline KPIs and the all-device Cart count. These are package and cached-preview checks; fresh Tableau rendering and interactive behavior were not verified here. Full-size dashboard images and a Tableau Public link remain pending. See [workbook review and handoff](tableau/README.md).
 
 ## Explore or reproduce
 

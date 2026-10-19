@@ -4,7 +4,7 @@
 
 The project establishes a business baseline, evaluates growth and seasonality, compares acquisition and device segments, traces the website funnel, compares product economics and mix, examines refunds, and distinguishes repeat visits from repeat purchases. The resulting evidence supports investigation priorities and test proposals.
 
-The seven CSV outputs are independent aggregates designed for their own grains and intended as separate Tableau sources. Joining them into a single flat table would duplicate measures because their dimensions and populations differ. The workbook received October 18 has seven source definitions, but the one captioned monthly_overview.csv currently references acquisition_monthly.csv. Correct that connection before treating the workbook as an exact implementation of the documented seven-export design; see the Tableau handoff notes.
+The seven CSV outputs are independent aggregates designed for their own grains and intended as separate Tableau sources. Joining them into a single flat table would duplicate measures because their dimensions and populations differ. The revised workbook received October 18 has seven source definitions whose active text connection filenames match the intended exports. The earlier overview connection mismatch is corrected. Embedded extract rows were not independently queried; see the Tableau handoff notes for the checked scope.
 
 ## Joins and attribution
 
@@ -42,4 +42,4 @@ SQL drafting, troubleshooting, documentation, and validation scripting used AI a
 - A latest observed event timestamp does not prove complete extraction or a refund policy. Raw uniqueness, orphan records, event instrumentation, and source coverage still need verification in the original database.
 - Cohort repeat purchasing is not lifetime retention or churn. Repeat-session flags do not prove prior purchasing.
 - Revenue, gross margin, and gross profit are before refunds and other expenses. No recommendation includes an unsupported monetary benefit forecast.
-- The PostgreSQL version, original dataset retrieval date/version, workbook source correction, and final public links remain release items. The supplied workbook records Tableau 2025.2.4 on macOS. Source attribution and the provider-listed Public Domain license are recorded in the data inventory. This package does not certify compliance with a formal analytical standard.
+- The PostgreSQL version, original dataset retrieval date/version, presentation images, and final public links remain release items. The supplied workbook records Tableau 2025.2.4 on macOS. Source attribution and the provider-listed Public Domain license are recorded in the data inventory. This package does not certify compliance with a formal analytical standard.

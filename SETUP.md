@@ -4,9 +4,9 @@ The project is stored in [andrewg20-ui/ecommerce-sql-tableau-analysis](https://g
 
 ## Next handoff
 
-1. The supplied [packaged workbook](tableau/ecommerce.twbx) is now included. Save a local backup, correct the overview source connection and reset the funnel to (All), then save locally after each edit. Resupply the updated package and presentation exports of all three dashboards. Follow [the Tableau handoff notes](tableau/README.md).
+1. The revised [packaged workbook](tableau/ecommerce.twbx) is included, and both requested corrections are confirmed in the saved file. Next add full-size presentation images of all three dashboards and a working Tableau Public link if publishing there. Follow [the Tableau handoff notes](tableau/README.md). Save locally before preparing exports and after any further edit.
 2. Confirm the packaged SQL against the queries actually run. Complete [the execution record](docs/execution_record.md) with the import process, PostgreSQL and Tableau versions, timestamp convention, and dataset download/version details. Record actual reruns if needed.
-3. Check only changes caused by moving or publishing the workbook: source paths, default filters, layout, and representative KPI values. The overview's April 2012–February 2015 filter is confirmed in the supplied workbook; the funnel still needs resetting from Mobile to (All).
+3. Check only changes caused by moving or publishing the workbook: source paths, default filters, layout, and representative KPI values. The overview's April 2012–February 2015 filter and the funnel's all-device default are confirmed in the revised workbook; preserve them.
 4. Replace the pending Tableau notes in the README with the verified links and images. Complete [the release checklist](docs/release_checklist.md), choose how to license the author's original code/text, and make the repository public when ready.
 
 ## Portfolio presentation
