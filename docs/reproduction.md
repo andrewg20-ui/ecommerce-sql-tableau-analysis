@@ -27,7 +27,7 @@ The overview query exports all 37 available monthly rows. The dashboard filters 
 
 Connect each CSV as its own source, preserving its grain. Recreate or inspect the ratio calculations in the metric dictionary using sums of counts or dollars. Format date fields as dates and numeric fields as numbers. Format ratio fractions as percentages without multiplying by 100 twice.
 
-The original project already reviewed the three dashboards. Once the final workbook is supplied, check only changes caused by moving files, repointing sources, or publishing: missing paths, default filters, clipped views, and representative KPI values. Restore the overview's April 2012–February 2015 window and the funnel device selector to (All). Save locally after each change.
+The original project already reviewed the three dashboards. The supplied workbook is now included at tableau/ecommerce.twbx. Its overview source is mislabeled relative to its connection: monthly_overview.csv currently points to acquisition_monthly.csv. Repoint it to the intended overview CSV and refresh its extract. The overview date range is already April 2012–February 2015; reset the funnel device selector from Mobile to (All). Check the affected KPI values and reopen the saved package to verify paths, defaults, and rendering. Save locally after each change.
 
 ## Explain the work in an interview
 

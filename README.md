@@ -8,7 +8,7 @@ An analysis of growth, acquisition, website conversion, product economics, refun
 
 **Reporting period:** April 2012–February 2015, with first-purchase cohorts through November 2014 to allow a full 90-day repeat-purchase window. The overview export also retains the two partial boundary months for reference; they are excluded from the headline results below.
 
-**Project status:** Analysis and dashboard reviews are complete. This repository includes the recovered export SQL, aggregate outputs, source attribution, documentation, and runnable export checks. The exact executed SQL environment and final Tableau assets are being finalized. See the [release checklist](docs/release_checklist.md).
+**Project status:** Analysis and dashboard reviews are complete. This repository includes the recovered export SQL, aggregate outputs, source attribution, documentation, and runnable export checks. A packaged Tableau workbook is included. Two saved-workbook settings, presentation images, the public dashboard link, and the exact executed SQL environment remain to be finalized. See the [release checklist](docs/release_checklist.md).
 
 ## Business snapshot
 
@@ -44,7 +44,7 @@ See [findings and evidence](docs/findings.md) and [prioritized recommendations](
 | Acquisition & Funnel | Compare channels and devices; inspect the ordered conversion path. |
 | Products, Refunds & Customers | Compare product economics and mix, 30-day refunds, session types, and 90-day purchase cohorts. |
 
-The Tableau Public link, packaged workbook, and presentation screenshots have not yet been added. [Tableau handoff instructions](tableau/README.md) explain the final additions.
+[Download the packaged workbook](tableau/ecommerce.twbx) received October 18, 2026. It contains all three dashboards and seven embedded extracts. This saved draft still opens the funnel on Mobile, and the source labeled `monthly_overview.csv` references `acquisition_monthly.csv`. The overview's saved date filter is correct, and its cached preview shows the expected headline counts and revenue; source lineage and the funnel default still need correction in Tableau. Full-size dashboard images and a Tableau Public link remain pending. See [workbook review and handoff](tableau/README.md).
 
 ## Explore or reproduce
 
