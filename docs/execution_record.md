@@ -16,13 +16,27 @@ This file records what was actually executed. A prepared query or matching CSV d
 | Raw primary keys / foreign-key relationships verified | Not observed in this portfolio preparation |
 | Raw-event coverage verified | Not established from aggregate exports |
 | CSV validation | Executed against all seven packaged exports; 44/44 check groups pass |
-| Tableau review | Prior three-dashboard reviews retained. The received package includes 22 worksheets, three dashboards, and seven extracts. Static XML and cached-thumbnail inspection completed; no live Tableau rendering or interaction was performed here. |
+| Tableau review | Prior three-dashboard reviews retained. The received package includes 22 worksheets, three dashboards, and seven extracts. Static XML, cached-thumbnail, and supplied full-size PNG inspection completed; no live Tableau rendering or interaction was performed here. |
 | Workbook saved defaults | Revised package: April 1, 2012–February 28, 2015 on all eight overview sheets; Website Funnel includes all device members. Both saved-default handoffs are resolved. |
 | Workbook source lineage | Revised package: all seven text connection filenames agree with their intended exports, including monthly_overview.csv. A new overview extract is embedded. A retained internal table identifier still includes the former acquisition name; the active filename is correct, so that name alone does not establish an unresolved connection problem. |
 | Embedded extract row verification | Not independently queried: the local Hyper process could not start because the runtime denied its socket operation. Existing CSV checks do not establish embedded-extract equality. |
 | Saved preview checks | Overview revenue $1,856,559.28; sessions 455,909; orders 30,999; conversion 6.80%; AOV $59.89. All-device Cart count 91,127. Cached images, not fresh rendering. |
+| Full-size presentation exports | Received and visually reviewed October 20, 2026: Business Overview and Acquisition & Funnel at 2048 × 1535 px; Products, Refunds & Customers at 1638 × 2047 px. All panels visible; headline labels and default scopes match the recorded controls. PNGs copied unchanged to tableau/ and embedded in the README. Static export review does not establish embedded-row equality or a live published view. |
 | Packaged workbook checksum | SHA-256: 7b6fc7324031b3683153429c51f641d83e8f8469613f744e2f7062528b36e0e2; received ecommerce(1).twbx copied unchanged to tableau/ecommerce.twbx |
 | Recommendations | Author reports saved and stored on October 13, 2026; implementation outcomes not measured |
+
+## Next environment record
+
+Run these read-only statements in the PostgreSQL database used for the project and record their actual output:
+
+```sql
+SELECT version();
+SHOW TIMEZONE;
+```
+
+These establish the current server version and session timezone. They do not prove the original execution environment or the timezone represented by source timestamps; record those separately when known.
+
+## Query execution history
 
 When rerunning a query, add a row below with its filename, execution date, database/dataset version, exported row count, and any changes. Do not backfill unobserved runs as completed.
 

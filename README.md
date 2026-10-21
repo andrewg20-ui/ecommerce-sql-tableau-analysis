@@ -8,7 +8,7 @@ An analysis of growth, acquisition, website conversion, product economics, refun
 
 **Reporting period:** April 2012–February 2015, with first-purchase cohorts through November 2014 to allow a full 90-day repeat-purchase window. The overview export also retains the two partial boundary months for reference; they are excluded from the headline results below.
 
-**Project status:** Analysis and dashboard reviews are complete. This repository includes the recovered export SQL, aggregate outputs, source attribution, documentation, and runnable export checks. The revised packaged Tableau workbook is included, with the overview source connection and default filters confirmed in its saved settings. Presentation images, the public dashboard link, and the exact executed SQL environment remain to be finalized. See the [release checklist](docs/release_checklist.md).
+**Project status:** Analysis and dashboard reviews are complete. This repository includes the recovered export SQL, aggregate outputs, source attribution, documentation, and runnable export checks. The revised packaged Tableau workbook is included, with the overview source connection and default filters confirmed in its saved settings. Full-size dashboard images are included below. The public dashboard link and exact executed SQL environment remain to be finalized. See the [release checklist](docs/release_checklist.md).
 
 ## Business snapshot
 
@@ -44,7 +44,31 @@ See [findings and evidence](docs/findings.md) and [prioritized recommendations](
 | Acquisition & Funnel | Compare channels and devices; inspect the ordered conversion path. |
 | Products, Refunds & Customers | Compare product economics and mix, 30-day refunds, session types, and 90-day purchase cohorts. |
 
-[Download the revised packaged workbook](tableau/ecommerce.twbx) received October 18, 2026. It contains all three dashboards and seven embedded extracts. The overview connects to `monthly_overview.csv`, keeps April 2012–February 2015 selected, and the funnel defaults to all devices. Saved previews match the five headline KPIs and the all-device Cart count. These are package and cached-preview checks; fresh Tableau rendering and interactive behavior were not verified here. Full-size dashboard images and a Tableau Public link remain pending. See [workbook review and handoff](tableau/README.md).
+[Download the revised packaged workbook](tableau/ecommerce.twbx) received October 18, 2026. It contains all three dashboards and seven embedded extracts. The overview connects to `monthly_overview.csv`, keeps April 2012–February 2015 selected, and the funnel defaults to all devices. Full-size exports received October 20 show the complete layouts and match the reviewed headline values. Static images and saved-package checks do not independently verify live interactions or embedded extract rows. A Tableau Public link remains pending. See [workbook review and handoff](tableau/README.md).
+
+### Business Overview
+
+April 2012–February 2015. The five headline metrics reconcile to the complete-month reporting window.
+
+![Business Overview: gross revenue $1,856,559.28, 455,909 sessions, 30,999 orders, 6.80% conversion and $59.89 average order value, with monthly trends.](tableau/business_overview.png)
+
+[Open full-size Business Overview](tableau/business_overview.png).
+
+### Acquisition & Funnel
+
+The funnel is shown for all devices. Paid Search provides most traffic; desktop has the higher observed conversion rate. These comparisons do not establish channel profitability or a causal device effect.
+
+![Acquisition and Funnel: channel and device comparisons above an ordered all-device funnel, declining from 455,909 sessions to 30,999 order confirmations.](tableau/acquisition_funnel.png)
+
+[Open full-size Acquisition & Funnel](tableau/acquisition_funnel.png).
+
+### Products, Refunds & Customers
+
+Sales, refunds and sessions cover April 2012–February 2015. First-purchase cohorts cover April 2012–November 2014 to allow 90 days of follow-up. Gross profit and margin are before refunds.
+
+![Products, Refunds and Customers: product profit and margin, monthly unit mix, 30-day refund rates, first versus repeat sessions, and 90-day repeat-purchase cohorts.](tableau/products_refunds_customers.png)
+
+[Open full-size Products, Refunds & Customers](tableau/products_refunds_customers.png). Product color key for the mix and refund charts: blue — The Birthday Sugar Panda; orange — The Forever Love Bear; red — The Hudson River Mini bear; teal — The Original Mr. Fuzzy.
 
 ## Explore or reproduce
 
