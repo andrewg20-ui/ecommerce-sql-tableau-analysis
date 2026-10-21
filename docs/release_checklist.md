@@ -22,6 +22,7 @@ This is a practical readiness checklist for this project, not a certification ag
 - [x] Confirm the overview's saved complete-month date range and record Tableau version metadata.
 - [x] Add full-size exports of all three dashboards, inspect the complete layouts and key labels, and embed the images in the README.
 - [x] Record the author's current PostgreSQL 18.4 build and America/Chicago session timezone, preserving the supplied output and its provenance.
+- [x] Document the author's recollection of CSV imports into PostgreSQL and use of DBeaver for SQL, while leaving the exact import/schema procedure unconfirmed.
 
 ## Before public release
 

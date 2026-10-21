@@ -14,6 +14,8 @@ Do not describe a passing export check as proof that the raw database is complet
 
 ## Regenerate the exports from PostgreSQL
 
+The author recalls importing CSV source files into PostgreSQL and using DBeaver to write/run SQL. This records the high-level workflow; the original import utility, schema creation, and type mappings have not been recovered. Do not treat this recollection as a verified import recipe. See [the execution record](execution_record.md).
+
 1. Obtain [Toy Store E-Commerce Database from Maven Analytics](https://mavenanalytics.io/data-playground/toy-store-e-commerce-database). Record the downloaded version or file checksum and retrieval date. Retain the import instructions and schema, including any changes needed to load the source into PostgreSQL. Record `SELECT version();` and `SHOW TIMEZONE;` in your execution notes.
 2. Confirm that the required tables and columns in `sql/README.md` match the imported database. Compare each recovered query with the SQL you actually used. Keep any differences as intentional, documented changes.
 3. Check primary-key uniqueness and nulls for session, pageview, order, item, and product identifiers. Check order-to-session, pageview-to-session, item-to-order/product, and refund-to-item references. Inspect invalid or duplicate records before deciding how to treat them; never drop them just to match a target total.

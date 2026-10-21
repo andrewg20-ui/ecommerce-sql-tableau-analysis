@@ -7,7 +7,9 @@ This file records what was actually executed. A prepared query or matching CSV d
 | Original dataset provider and URL | Maven Analytics — [Toy Store E-Commerce Database](https://mavenanalytics.io/data-playground/toy-store-e-commerce-database) |
 | Source license | Provider-listed Public Domain; checked October 16, 2026 |
 | Dataset version / retrieval date | Not yet recorded |
-| Import / PostgreSQL setup instructions | Not yet supplied |
+| Import workflow, author recollection | Author recalls importing CSV files into PostgreSQL and using DBeaver to write and run SQL scripts; reported October 20, 2026. Exact import procedure is unconfirmed. |
+| SQL client | DBeaver, reported by the author; client version not recorded. |
+| PostgreSQL installation / import application | The author recalls a PostgreSQL application but is unsure of its name; no specific distribution, installer, import wizard, or command is inferred. |
 | Current PostgreSQL server version | 18.4; author-supplied version() output received October 20, 2026. Full build string recorded below. |
 | Current PostgreSQL session timezone | America/Chicago; author-supplied SHOW TIMEZONE output received October 20, 2026. |
 | Original export execution environment | Not yet confirmed whether the current version and session settings match those used for all original exports. |
@@ -49,9 +51,26 @@ America/Chicago
 
 These record the current server build and session timezone. The original export-run environment and the timezone represented by source timestamps remain unconfirmed. No timezone or database setting was changed as part of this step.
 
-## Next setup detail
+## Author-reported import workflow
 
-Record how the original Maven data was loaded into PostgreSQL: the source format (for example, CSV tables or a SQL script), the application or command used, and any schema or syntax changes. If the original method is not recalled, keep it marked unknown until it can be recovered from an import script or notes. Then compare the packaged export queries with the SQL actually run and record any genuine reruns.
+On October 20, 2026, the author recalled importing CSV files into PostgreSQL and using DBeaver to write and run the analysis scripts. The CSV import is a recollection rather than a verified import record.
+
+The roles in that account are:
+
+| Component | Role |
+|---|---|
+| Original CSV files | Recalled source format used to populate the database |
+| PostgreSQL | Database that stores the tables and executes SQL |
+| DBeaver | SQL client used to connect to PostgreSQL and write/run scripts |
+| Tableau | Dashboard tool using the project's aggregate CSV exports |
+
+The exact original filenames, schema creation statements, import application or command, type conversions, and installation package remain unconfirmed. In particular, this account does not establish that DBeaver performed the import. The original source CSVs are distinct from the seven aggregate exports already packaged in this repository.
+
+This is enough to document the high-level workflow without inventing a reproducible import recipe. If original import files or notes are recovered, add their details here.
+
+## Next provenance step
+
+Compare original SQL scripts saved in DBeaver with the seven packaged definitions. Reuse the four supplied saved files; recover remaining originals if available, particularly the overview, product, and refund exports whose definitions were recovered from the project log. Record actual differences or missing originals. Do not infer that a query was executed merely because its definition or an aggregate CSV exists.
 
 ## Query execution history
 
