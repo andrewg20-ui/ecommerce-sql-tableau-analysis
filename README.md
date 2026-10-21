@@ -8,7 +8,7 @@ An analysis of growth, acquisition, website conversion, product economics, refun
 
 **Reporting period:** April 2012–February 2015, with first-purchase cohorts through November 2014 to allow a full 90-day repeat-purchase window. The overview export also retains the two partial boundary months for reference; they are excluded from the headline results below.
 
-**Project status:** Analysis and dashboard reviews are complete. This repository includes the recovered export SQL, aggregate outputs, source attribution, documentation, and runnable export checks. The revised packaged Tableau workbook is included, with the overview source connection and default filters confirmed in its saved settings. Full-size dashboard images are included below. The public dashboard link and exact executed SQL environment remain to be finalized. See the [release checklist](docs/release_checklist.md).
+**Project status:** Analysis and dashboard reviews are complete. This repository includes the recovered export SQL, aggregate outputs, source attribution, documentation, and runnable export checks. The revised packaged Tableau workbook is included, with the overview source connection and default filters confirmed in its saved settings. Full-size dashboard images are included below. The current PostgreSQL version (18.4) and session timezone (America/Chicago) are recorded. The original import/query execution record and public dashboard link remain to be finalized. See the [release checklist](docs/release_checklist.md).
 
 ## Business snapshot
 

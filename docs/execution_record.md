@@ -8,8 +8,10 @@ This file records what was actually executed. A prepared query or matching CSV d
 | Source license | Provider-listed Public Domain; checked October 16, 2026 |
 | Dataset version / retrieval date | Not yet recorded |
 | Import / PostgreSQL setup instructions | Not yet supplied |
-| PostgreSQL version | Not yet recorded |
-| Source timestamp timezone | Not yet recorded |
+| Current PostgreSQL server version | 18.4; author-supplied version() output received October 20, 2026. Full build string recorded below. |
+| Current PostgreSQL session timezone | America/Chicago; author-supplied SHOW TIMEZONE output received October 20, 2026. |
+| Original export execution environment | Not yet confirmed whether the current version and session settings match those used for all original exports. |
+| Source timestamp timezone | Not yet established; the current session's America/Chicago setting does not establish the timezone represented by the imported timestamp values. |
 | Tableau version | Packaged workbook metadata: 2025.2.4, build 20252.25.1003.1601, macOS; received October 18, 2026 |
 | SQL provenance | Four saved definitions; three definitions recovered verbatim from the project log |
 | Exact executed SQL compared with packaged files | Pending author confirmation |
@@ -25,16 +27,31 @@ This file records what was actually executed. A prepared query or matching CSV d
 | Packaged workbook checksum | SHA-256: 7b6fc7324031b3683153429c51f641d83e8f8469613f744e2f7062528b36e0e2; received ecommerce(1).twbx copied unchanged to tableau/ecommerce.twbx |
 | Recommendations | Author reports saved and stored on October 13, 2026; implementation outcomes not measured |
 
-## Next environment record
+## Current environment: author-supplied results
 
-Run these read-only statements in the PostgreSQL database used for the project and record their actual output:
+Received October 20, 2026. The author ran the following statements separately and supplied their results; these were not independently executed during portfolio preparation.
 
 ```sql
-SELECT version();
+SELECT version() AS postgresql_version;
+```
+
+```text
+PostgreSQL 18.4 on x86_64-apple-darwin24.6.0, compiled by Apple clang version 17.0.0 (clang-1700.6.3.2), 64-bit
+```
+
+```sql
 SHOW TIMEZONE;
 ```
 
-These establish the current server version and session timezone. They do not prove the original execution environment or the timezone represented by source timestamps; record those separately when known.
+```text
+America/Chicago
+```
+
+These record the current server build and session timezone. The original export-run environment and the timezone represented by source timestamps remain unconfirmed. No timezone or database setting was changed as part of this step.
+
+## Next setup detail
+
+Record how the original Maven data was loaded into PostgreSQL: the source format (for example, CSV tables or a SQL script), the application or command used, and any schema or syntax changes. If the original method is not recalled, keep it marked unknown until it can be recovered from an import script or notes. Then compare the packaged export queries with the SQL actually run and record any genuine reruns.
 
 ## Query execution history
 

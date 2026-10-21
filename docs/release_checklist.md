@@ -21,11 +21,12 @@ This is a practical readiness checklist for this project, not a certification ag
 - [x] Include the received packaged workbook with all three dashboards and seven embedded extracts.
 - [x] Confirm the overview's saved complete-month date range and record Tableau version metadata.
 - [x] Add full-size exports of all three dashboards, inspect the complete layouts and key labels, and embed the images in the README.
+- [x] Record the author's current PostgreSQL 18.4 build and America/Chicago session timezone, preserving the supplied output and its provenance.
 
 ## Before public release
 
 - [ ] Record the original dataset retrieval date and version or file checksum in `data/README.md` and `docs/execution_record.md`.
-- [ ] Compare the recovered queries with the SQL actually run. Record the source setup, PostgreSQL version, timezone, and execution results in `docs/execution_record.md`.
+- [ ] Compare the recovered queries with the SQL actually run. Record the source import/setup, source timestamp convention, and execution results in `docs/execution_record.md`; confirm whether the recorded current environment matches the original export runs.
 - [ ] Add a working Tableau Public link if publishing there. Confirm that the workbook contains only the intended project data.
 - [x] Confirm the revised overview connection uses monthly_overview.csv, a new overview extract is included, and all five saved KPI previews match the controls.
 - [x] Confirm the revised funnel includes all devices and retains the April 2012–February 2015 overview range. The corrected package is saved and included.

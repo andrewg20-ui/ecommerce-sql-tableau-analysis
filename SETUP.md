@@ -4,8 +4,8 @@ The project is stored in [andrewg20-ui/ecommerce-sql-tableau-analysis](https://g
 
 ## Next handoff
 
-1. Complete the next execution-record step: run `SELECT version();` and `SHOW TIMEZONE;` in the PostgreSQL database used for this project and record the returned values in [the execution record](docs/execution_record.md). The timezone setting describes the current database session; it does not by itself establish the source timestamps' timezone. Save the Tableau workbook locally before switching applications.
-2. Compare the packaged SQL with the queries actually run. Record the import process, dataset retrieval/version information, and any genuine reruns. The Tableau version, packaged workbook, saved default corrections, and all three presentation images are already recorded.
+1. Record how the Maven data was imported into PostgreSQL: the original file format, the application or command used, and any schema/syntax changes. The author has supplied PostgreSQL 18.4 and the current session timezone America/Chicago; both are saved in [the execution record](docs/execution_record.md). The source timestamp convention and original export-run environment remain separate questions.
+2. Compare the packaged SQL with the queries actually run. Record dataset retrieval/version information, whether the reported current environment matches the original export runs, and any genuine reruns. The current PostgreSQL details, Tableau version, packaged workbook, saved default corrections, and all three presentation images are already recorded.
 3. Add a working Tableau Public link if publishing there. Check only changes caused by moving or publishing the workbook: source paths, default filters, layout, and representative KPI values. Preserve the overview's April 2012–February 2015 range and the funnel's all-device default. Save locally before publication and after any further edit; see [the Tableau handoff notes](tableau/README.md).
 4. Complete [the release checklist](docs/release_checklist.md), choose how to license the author's original code/text, review the README as a visitor, and make the repository public when ready.
 
