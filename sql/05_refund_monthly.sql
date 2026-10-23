@@ -1,6 +1,6 @@
--- PostgreSQL export definition recovered verbatim from the saved project log.
--- SQL execution against the original database was not independently observed.
--- Match to your executed copy before claiming source-to-dashboard reproducibility.
+-- PostgreSQL export definition; statement matched refund_monthly.sql on 2026-10-22.
+-- Comparison allowed introductory comments, blank lines, and the final line break only.
+-- Original source-database execution and run date were not independently observed.
 
 WITH refunds_30d AS (
     SELECT DISTINCT

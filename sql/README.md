@@ -4,15 +4,17 @@ The seven numbered files are PostgreSQL read-only export definitions. They can b
 
 | File | Provenance | Expected output |
 |---|---|---|
-| `01_monthly_overview.sql` | Recovered verbatim from the saved overview exercise | 37 rows, all available monthly history |
+| `01_monthly_overview.sql` | Log-recovered statement matches supplied monthly_overview.sql, checked October 22, 2026 | 37 rows, all available monthly history |
 | `02_acquisition_monthly.sql` | Existing saved SQL file | 422 rows, 35 complete months |
 | `03_funnel_monthly.sql` | Existing saved SQL file | 490 rows, 35 months × 2 devices × 7 stages |
-| `04_product_monthly.sql` | Recovered verbatim from the saved product export exercise | 89 product-month rows |
-| `05_refund_monthly.sql` | Recovered verbatim from the saved 30-day refund export exercise | 89 sale-month/product rows |
+| `04_product_monthly.sql` | Log-recovered statement matches supplied product_monthly.sql, checked October 22, 2026 | 89 product-month rows |
+| `05_refund_monthly.sql` | Log-recovered statement matches supplied refund_monthly.sql, checked October 22, 2026 | 89 sale-month/product rows |
 | `06_customer_sessions_monthly.sql` | Existing saved SQL file | 70 month/session-type rows |
 | `07_repeat_purchase_cohorts.sql` | Existing saved SQL file | 32 first-purchase cohorts |
 
-The SQL has not been newly executed against PostgreSQL during portfolio packaging. Compare it with the original executed copies and record any differences. The received exports have been validated separately; this distinction is retained in comments and documentation.
+The three previously log-recovered statements now match the author's supplied files, allowing only the repository's introductory comments, blank lines, and final line break. The overview filename was assigned at upload; its identity is established by its matching query contents. See [the comparison record and supplied-file hashes](../docs/execution_record.md).
+
+The SQL has not been newly executed against PostgreSQL during portfolio packaging. Script-content comparison and the separate export checks do not establish an original execution date or raw-database completeness.
 
 ## Expected source fields
 

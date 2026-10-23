@@ -10,6 +10,7 @@ This is a practical readiness checklist for this project, not a certification ag
 - [x] Define metric numerators, denominators, units, and time windows.
 - [x] Preserve separate grains for sessions, products, refunds, and customer cohorts.
 - [x] Recover all seven export query definitions and label their execution status honestly.
+- [x] Match the three previously log-recovered statements to the author's supplied overview, product, and refund scripts; record only comment/blank-line/final-newline differences. The other four saved files were already supplied.
 - [x] Package the seven supplied aggregate CSVs without modifying their contents.
 - [x] Include a runnable validator and recorded result: 44/44 check groups passed.
 - [x] Record the known monthly attribution difference instead of forcing a false reconciliation.
@@ -27,7 +28,7 @@ This is a practical readiness checklist for this project, not a certification ag
 ## Before public release
 
 - [ ] Record the original dataset retrieval date and version or file checksum in `data/README.md` and `docs/execution_record.md`.
-- [ ] Compare the recovered queries with the SQL actually run. Record the source import/setup, source timestamp convention, and execution results in `docs/execution_record.md`; confirm whether the recorded current environment matches the original export runs.
+- [ ] Recover the exact source import/setup, source timestamp convention, and historical execution details if available; otherwise retain their explicitly unconfirmed status in `docs/execution_record.md`. Script comparison is complete and does not establish an observed source-database rerun.
 - [ ] Add a working Tableau Public link if publishing there. Confirm that the workbook contains only the intended project data.
 - [x] Confirm the revised overview connection uses monthly_overview.csv, a new overview extract is included, and all five saved KPI previews match the controls.
 - [x] Confirm the revised funnel includes all devices and retains the April 2012–February 2015 overview range. The corrected package is saved and included.

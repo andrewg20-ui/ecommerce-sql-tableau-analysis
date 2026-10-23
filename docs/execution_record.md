@@ -15,8 +15,8 @@ This file records what was actually executed. A prepared query or matching CSV d
 | Original export execution environment | Not yet confirmed whether the current version and session settings match those used for all original exports. |
 | Source timestamp timezone | Not yet established; the current session's America/Chicago setting does not establish the timezone represented by the imported timestamp values. |
 | Tableau version | Packaged workbook metadata: 2025.2.4, build 20252.25.1003.1601, macOS; received October 18, 2026 |
-| SQL provenance | Four saved definitions; three definitions recovered verbatim from the project log |
-| Exact executed SQL compared with packaged files | Pending author confirmation |
+| SQL provenance | Four definitions packaged from supplied saved files; the three previously log-recovered definitions were matched to newly supplied scripts on October 22, 2026. |
+| Supplied SQL content compared with packaged files | Complete for the three previously log-recovered files: overview, product, and refund statements match exactly after removing the repository's introductory comments, blank lines, and final line break. Historical execution was not independently observed. |
 | Raw primary keys / foreign-key relationships verified | Not observed in this portfolio preparation |
 | Raw-event coverage verified | Not established from aggregate exports |
 | CSV validation | Executed against all seven packaged exports; 44/44 check groups pass |
@@ -68,9 +68,25 @@ The exact original filenames, schema creation statements, import application or 
 
 This is enough to document the high-level workflow without inventing a reproducible import recipe. If original import files or notes are recovered, add their details here.
 
-## Next provenance step
+## Supplied script comparison — October 22, 2026
 
-Compare original SQL scripts saved in DBeaver with the seven packaged definitions. Reuse the four supplied saved files; recover remaining originals if available, particularly the overview, product, and refund exports whose definitions were recovered from the project log. Record actual differences or missing originals. Do not infer that a query was executed merely because its definition or an aggregate CSV exists.
+The author supplied the three remaining scripts. Each was compared directly with the corresponding repository query. The comparison removed only the repository's known introductory comment block, blank lines, and final line break; all other statement text was preserved.
+
+| Supplied file | Repository definition | Comparison |
+|---|---|---|
+| monthly_overview.sql | sql/01_monthly_overview.sql | Statement matches; introductory comments and final line break differ |
+| product_monthly.sql | sql/04_product_monthly.sql | Statement matches; introductory comments and final line break differ |
+| refund_monthly.sql | sql/05_refund_monthly.sql | Statement matches; introductory comments, blank lines, and final line break differ |
+
+The author assigned the monthly_overview.sql filename when sending the file and was unsure of its identity. Its contents identify the expected overview export: orders are aggregated by session, then joined to website sessions and grouped by session month. The output includes observed session boundaries, sessions, converting sessions, orders, revenue, conversion percentage, average order value, and revenue per session. Its statement matches the existing overview definition, so the newly assigned name creates no query mismatch.
+
+SHA-256 of the supplied files, before any normalization:
+
+- monthly_overview.sql: `ce53aa774ccbc62362e80ac2d21f305396a3463fa1f5dae2a8bba2b466814b4f`
+- product_monthly.sql: `24a3677d2ba5a13443d5bc3022a290ecc0a31414082eb728f3aa355069ec6604`
+- refund_monthly.sql: `505ba9602d849f396729e7d35361efd62386bd4502175756dbeabf68c283cc1c`
+
+Repository changes to these SQL files update provenance comments only. No query logic changed, and no source-database rerun was performed for this comparison. The four other definitions were already packaged from supplied saved files. All seven definitions now have supplied script support; original execution dates, source coverage, and complete import reproducibility remain outside this comparison.
 
 ## Query execution history
 

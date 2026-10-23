@@ -31,7 +31,7 @@ Refund cohorts follow each sale item for 30 days. First-purchase cohorts follow 
 
 Prior project reviews checked the seven exports and the Tableau values and relevant filter behavior. The repository adds a portable script that reproduces export-level schema, grain, numeric, count, ratio, and reconciliation checks. Its output includes file hashes and distinguishes documented attribution differences from failed reconciliations.
 
-The SQL files are recovered definitions used during the project workflow. Four were saved query files and three were extracted verbatim from the project log. Query execution against the original PostgreSQL database was not independently observed. Before claiming full source-to-dashboard reproducibility, compare these files with the SQL actually run, record the database version and setup, and regenerate the exports.
+Four SQL definitions were packaged from saved query files; three were initially extracted from the project log. On October 22, 2026, those three statements were matched to the author's supplied overview, product, and refund scripts. Differences were limited to introductory comments, blank lines, and the final line break. This completes the supplied-script comparison. Query execution against the original PostgreSQL database was not independently observed. Full source-to-dashboard reproduction still requires the source import/setup and documented runs that regenerate the exports.
 
 SQL drafting, troubleshooting, documentation, and validation scripting used AI assistance. The portfolio author should be able to explain the joins, denominators, date windows, and conclusions and should retain the SQL actually executed. This project makes no claim that the work was completed without assistance.
 
