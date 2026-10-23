@@ -2,7 +2,17 @@
 
 [Download ecommerce.twbx](ecommerce.twbx). This is the revised file received as ecommerce(1).twbx on October 18, 2026, preserved byte for byte under a stable repository filename.
 
-**Workbook and presentation images included:** both requested saved-setting corrections are confirmed. All three full-size dashboard exports were received and visually reviewed on October 20, 2026. A live public link remains to be added.
+**Workbook and presentation images included:** both requested saved-setting corrections are confirmed. All three full-size dashboard exports were received and visually reviewed on October 20, 2026. [Business Overview is live on Tableau Public](https://public.tableau.com/app/profile/andrew.gerardo/viz/E-commercePerformanceAnalysis/BusinessOverview).
+
+## Published view check — October 23, 2026
+
+A signed-out browser visit opened the published Business Overview under Andrew Gerardo's profile. The displayed reporting period is April 2012–February 2015. Its five headline metrics match the validated controls: gross revenue $1,856,559.28, sessions 455,909, orders 30,999, conversion 6.80%, and average order value $59.89. All three overview trend panels rendered.
+
+The viewer did not show dashboard navigation tabs. The PDF dialog's “Specific sheets from this workbook” selector exposed only Business Overview (1 of 1); no PDF was downloaded. This does not establish whether the other dashboards are absent or unavailable through the current published settings. Their live layouts, filters, and values are not yet verified.
+
+Next: while signed in as the author, open this visualization's **Edit Details**, enable **Show Sheets as Tabs**, and save. Confirm that Business Overview, Acquisition & Funnel, and Products, Refunds & Customers are all available to a signed-out visitor. If only Business Overview remains, check that the published workbook includes the other two dashboards. [Tableau's instructions for the setting](https://help.salesforce.com/s/articleView?id=001473332&language=en_US&type=1).
+
+The repository's downloadable package remains the reviewed October 18 copy. Its identity and earlier checks below do not establish byte equivalence with the October 23 publication. No new workbook or data edits were made during this visitor check.
 
 ## Revised package checks
 
@@ -32,7 +42,7 @@ The supplied full-size PNGs were inspected directly; all dashboard panels are vi
 | Overview image | [business_overview.png](business_overview.png) | Received and reviewed; 2048 × 1535 px |
 | Acquisition/funnel image | [acquisition_funnel.png](acquisition_funnel.png) | Received and reviewed; 2048 × 1535 px |
 | Product/refund/customer image | [products_refunds_customers.png](products_refunds_customers.png) | Received and reviewed; 1638 × 2047 px |
-| Tableau Public share link | Root README | Not supplied |
+| Tableau Public share link | [Business Overview](https://public.tableau.com/app/profile/andrew.gerardo/viz/E-commercePerformanceAnalysis/BusinessOverview) | Opens without sign-in; overview KPIs confirmed; remaining dashboard navigation pending |
 
 The images are the author's supplied exports, copied without pixel changes under repository-safe filenames and embedded in the root README. The first two workbook dashboards are fixed at 1200 × 900; Products, Refunds & Customers is fixed at 1200 × 1500. The supplied PNGs use larger export resolutions.
 
@@ -47,6 +57,6 @@ The reviewed images preserve the complete-month and all-device defaults. No new 
 
 Save the workbook locally before preparing exports and after any edit. The observed Command-S toolbar action says Save to Tableau Public, so choose the local save destination when making a backup. Reopen the saved package and check fresh rendering and default values when preparing public release.
 
-The [data inventory](../data/README.md) records Maven's provider-listed Public Domain license. The package contains embedded data and retains original local connection metadata. Publishing and fresh viewer checks remain separate handoffs; the repository is a private draft.
+The [data inventory](../data/README.md) records Maven's provider-listed Public Domain license. The package contains embedded data and retains original local connection metadata. Publication and the overview visitor check are complete; remaining dashboard navigation and GitHub public release are separate handoffs. The repository remains private.
 
 Official references, checked October 18, 2026: [edit data connections](https://help.tableau.com/current/pro/desktop/en-us/howto_connect.htm), [save workbooks](https://help.tableau.com/current/pro/desktop/en-us/save_savework.htm), and [export views](https://help.tableau.com/current/pro/desktop/en-us/save_export_image.htm).
