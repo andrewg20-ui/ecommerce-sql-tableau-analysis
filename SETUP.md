@@ -4,10 +4,14 @@ The project is stored in [andrewg20-ui/ecommerce-sql-tableau-analysis](https://g
 
 ## Next handoff
 
-1. The [Business Overview publication](https://public.tableau.com/app/profile/andrew.gerardo/viz/E-commercePerformanceAnalysis/BusinessOverview) is live and linked in the README. A signed-out visit on October 23, 2026 confirmed the five expected KPIs. The next step is dashboard navigation: while signed in on Tableau Public, open the visualization's **Edit Details**, enable **Show Sheets as Tabs**, and save. Confirm that all three dashboards are available. If only Business Overview remains, confirm that the published workbook includes the other two dashboards. [Official setting instructions](https://help.salesforce.com/s/articleView?id=001473332&language=en_US&type=1).
-2. Check the other two published dashboards' reporting scopes, default filters, layout, and representative KPI values. Preserve April 2012–February 2015 and the funnel's All device selection; first-purchase cohorts end in November 2014. Save locally before and after any further Tableau workbook edit. For this Public Edition, publication uses **File → Save to Tableau Public As…**; the previously documented Server path did not match the author's interface. Reuse prior checks for components unchanged by publication.
-3. The SQL-file comparison is complete: all three previously log-recovered statements match the supplied scripts, and the other four saved definitions were already included. Keep any unrecovered import steps, original dataset version/retrieval date, and historical execution details explicitly unconfirmed. See [the execution record](docs/execution_record.md).
-4. Complete [the release checklist](docs/release_checklist.md), decide how to license the author's original code/text, and make the repository public when ready. The live dashboard link is already included.
+The [three published dashboards](https://public.tableau.com/app/profile/andrew.gerardo/viz/E-commercePerformanceAnalysis/BusinessOverview) now open without sign-in. Representative metrics and reporting labels match the controls, and the mobile funnel filter matches the export and was restored to All. The Tableau publication check is complete at the [documented scope](tableau/README.md).
+
+1. Review the prepared README and [release checklist](docs/release_checklist.md), then make the repository public when ready.
+2. Decide how to license the author's original code/text separately from the dataset terms. No new license has been applied.
+3. Add the repository description/topics below and pin the finished project on the GitHub profile.
+4. Retain the [documented execution limitations](docs/execution_record.md). All seven supplied SQL definitions are included; unknown historical import, retrieval, and execution details should not be invented.
+
+For any future Tableau workbook edits, save a local copy before starting and save again after every edit. This Public Edition uses **File → Save to Tableau Public As…** for publication. The current repository package remains the reviewed October 18 copy; it has not been replaced with a download of the later live workbook.
 
 ## Portfolio presentation
 

@@ -2,7 +2,7 @@
 
 **PostgreSQL · DBeaver · Tableau · E-commerce analytics**
 
-**[View Business Overview on Tableau Public](https://public.tableau.com/app/profile/andrew.gerardo/viz/E-commercePerformanceAnalysis/BusinessOverview)**
+**[Explore all three dashboards on Tableau Public](https://public.tableau.com/app/profile/andrew.gerardo/viz/E-commercePerformanceAnalysis/BusinessOverview)**
 
 An analysis of growth, acquisition, website conversion, product economics, refunds, and repeat purchasing for Maven Fuzzy Factory, an online teddy-bear retailer. The project uses SQL to prepare seven aggregate datasets and Tableau to communicate the results across three dashboards.
 
@@ -10,7 +10,7 @@ An analysis of growth, acquisition, website conversion, product economics, refun
 
 **Reporting period:** April 2012–February 2015, with first-purchase cohorts through November 2014 to allow a full 90-day repeat-purchase window. The overview export also retains the two partial boundary months for reference; they are excluded from the headline results below.
 
-**Project status:** Analysis and dashboard reviews are complete. This repository includes seven export SQL definitions supported by supplied scripts, aggregate outputs, source attribution, documentation, and runnable export checks. The revised packaged Tableau workbook is included, with the overview source connection and default filters confirmed in its saved settings. Full-size dashboard images are included below. The current PostgreSQL version (18.4), session timezone (America/Chicago), and author-reported use of CSV imports and DBeaver are recorded. The three previously log-recovered SQL statements now match the author's supplied scripts. Business Overview is published on Tableau Public; an October 23, 2026 signed-out visit confirmed its five headline metrics. Navigation to the other two published dashboards and final GitHub release remain open. Exact original import details and historical execution records remain documented gaps. See the [release checklist](docs/release_checklist.md).
+**Project status:** Analysis and dashboard reviews are complete. This repository includes seven export SQL definitions supported by supplied scripts, aggregate outputs, source attribution, documentation, and runnable export checks. The revised packaged Tableau workbook is included, with the overview source connection and default filters confirmed in its saved settings. Full-size dashboard images are included below. The current PostgreSQL version (18.4), session timezone (America/Chicago), and author-reported use of CSV imports and DBeaver are recorded. The three previously log-recovered SQL statements now match the author's supplied scripts. All three dashboards are published on Tableau Public. Signed-out visitor checks on October 23, 2026 confirmed navigation, representative values, reporting labels, and the funnel device filter, which was restored to All. Final GitHub public release remains open. Exact original import details and historical execution records remain documented gaps. See the [release checklist](docs/release_checklist.md).
 
 ## Business snapshot
 
@@ -46,7 +46,7 @@ See [findings and evidence](docs/findings.md) and [prioritized recommendations](
 | Acquisition & Funnel | Compare channels and devices; inspect the ordered conversion path. |
 | Products, Refunds & Customers | Compare product economics and mix, 30-day refunds, session types, and 90-day purchase cohorts. |
 
-[Open the published Business Overview](https://public.tableau.com/app/profile/andrew.gerardo/viz/E-commercePerformanceAnalysis/BusinessOverview), or [download the revised packaged workbook](tableau/ecommerce.twbx) received October 18, 2026. The packaged copy contains all three dashboards and seven embedded extracts. Its overview connects to `monthly_overview.csv`, keeps April 2012–February 2015 selected, and its funnel defaults to all devices. Full-size exports received October 20 show the complete layouts and match the reviewed headline values. The published overview's five KPIs match those controls; navigation to the other two dashboards is still being checked. The repository package has not been replaced with a download of the later publication. See [workbook review and handoff](tableau/README.md) for verification scope.
+[Open the live dashboards](https://public.tableau.com/app/profile/andrew.gerardo/viz/E-commercePerformanceAnalysis/BusinessOverview), or [download the revised packaged workbook](tableau/ecommerce.twbx) received October 18, 2026. The packaged copy contains all three dashboards and seven embedded extracts. Its overview connects to `monthly_overview.csv`, keeps April 2012–February 2015 selected, and its funnel defaults to all devices. Full-size exports received October 20 show the complete layouts and match the reviewed headline values. All three published dashboard tabs open without sign-in. Representative overview, acquisition, product, refund, and customer values match the reviewed controls; the mobile funnel also matches the export, and its All-devices default was restored. Use the tabs above the visualization to move between dashboards. The repository package has not been replaced with a download of the later publication. See [workbook review and handoff](tableau/README.md) for verification scope.
 
 ### Business Overview
 
