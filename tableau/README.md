@@ -58,8 +58,8 @@ The images are the author's supplied exports, copied without pixel changes under
 
 The reviewed images preserve the complete-month and all-device defaults. No new analysis or workbook changes were made during this image handoff.
 
-Save the workbook locally before preparing exports and after any edit. The observed Command-S toolbar action says Save to Tableau Public, so choose the local save destination when making a backup. Reopen the saved package and check fresh rendering and default values when preparing public release.
+Save the workbook locally before preparing exports and after any edit. The observed Command-S toolbar action says Save to Tableau Public, so choose the local save destination when making a backup. Reopen the saved package and check fresh rendering and default values when preparing a future update.
 
-The [data inventory](../data/README.md) records Maven's provider-listed Public Domain license. The package contains embedded data and retains original local connection metadata. Publication and the scoped visitor checks are complete. GitHub public release remains the next handoff; the repository is still private.
+The [data inventory](../data/README.md) records Maven's provider-listed Public Domain license. The package contains embedded data and retains original local connection metadata. Publication and the scoped visitor checks are complete. GitHub public release is also complete; repository visibility was verified as public on October 25, 2026.
 
 Official references, checked October 18, 2026: [edit data connections](https://help.tableau.com/current/pro/desktop/en-us/howto_connect.htm), [save workbooks](https://help.tableau.com/current/pro/desktop/en-us/save_savework.htm), and [export views](https://help.tableau.com/current/pro/desktop/en-us/save_export_image.htm).

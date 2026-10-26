@@ -1,6 +1,6 @@
 # Portfolio release checklist
 
-This is a practical readiness checklist for this project, not a certification against a formal analytics standard. Analysis, documentation, export checks, and the Tableau publication are ready within their reviewed scopes. The GitHub repository is still private; remaining release actions and documented reproducibility limits are listed below.
+This is a practical readiness checklist for this project, not a certification against a formal analytics standard. Analysis, documentation, export checks, Tableau publication, and GitHub public release are complete within their reviewed scopes. Repository visibility was verified as public on October 25, 2026. Optional presentation choices and documented reproducibility limits are listed below.
 
 ## Prepared
 
@@ -17,7 +17,7 @@ This is a practical readiness checklist for this project, not a certification ag
 - [x] Provide README, reproduction instructions, export inventory, and limitations.
 - [x] Keep the lengthy working conversation log out of the recruiter-facing repository package.
 - [x] Credit Maven Analytics and the original dataset URL; record the provider-listed Public Domain license.
-- [x] Create the private [project repository](https://github.com/andrewg20-ui/ecommerce-sql-tableau-analysis) and add the prepared package contents.
+- [x] Create the [project repository](https://github.com/andrewg20-ui/ecommerce-sql-tableau-analysis) and add the prepared package contents.
 
 - [x] Include the received packaged workbook with all three dashboards and seven embedded extracts.
 - [x] Confirm the overview's saved complete-month date range and record Tableau version metadata.
@@ -26,16 +26,19 @@ This is a practical readiness checklist for this project, not a certification ag
 - [x] Document the author's recollection of CSV imports into PostgreSQL and use of DBeaver for SQL, while leaving the exact import/schema procedure unconfirmed.
 - [x] Add the Tableau Public link to the root README and workbook documentation. A signed-out visit on October 23, 2026 confirmed that Business Overview loads and its five headline metrics match the controls.
 
-## Before public release
+## Publication checks
 
 - [x] Confirm that all three intended dashboards are visible and open to a signed-out visitor. The visible charts show the intended project data. The reviewed downloadable package contains all three dashboards and seven project extracts; published extract contents have not been independently queried.
 - [x] Confirm the revised overview connection uses monthly_overview.csv, a new overview extract is included, and all five saved KPI previews match the controls.
 - [x] Confirm the revised funnel includes all devices and retains the April 2012–February 2015 overview range. The corrected package is saved and included.
 - [x] Complete the scoped published-view check: all three dashboards render, reporting labels and representative values match, and the funnel defaults to All. Its mobile filter returns all seven expected counts; Revert restores All. See `tableau/README.md` for scope and limits.
-- [ ] Decide the license for the author's code/text separately from the dataset terms; do not license someone else's dataset by assumption.
 - [x] Replace pending dashboard-link/navigation notes with the verified live workbook link and completed three-dashboard visitor checks.
-- [ ] Review the README as a visitor and make the repository public when ready. The current repository is still private.
-- [ ] Add a short repository description and relevant topics; pin the completed project alongside Cyclistic and Bellabeat.
+- [x] Release the repository publicly. Andrew changed its visibility; GitHub reports `public` and `private: false`. The README content and linked local assets have been reviewed.
+
+## Optional profile and reuse choices
+
+- [ ] Add a short repository description and relevant topics; pin the completed project on the GitHub profile.
+- [ ] Select a license for the author's original code/text if reuse permissions are desired. No separate license has been selected; the dataset's provider-listed terms are recorded separately.
 
 ## Recorded limitations and optional follow-up
 
